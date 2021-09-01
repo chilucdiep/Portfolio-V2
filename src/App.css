@@ -1,0 +1,31 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 0.75rem;
+  color: #6773FF;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.caption {
+  font-size: 1.125rem;
+}
