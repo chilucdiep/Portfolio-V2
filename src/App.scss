@@ -10,27 +10,46 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
 h1 {
   font-size: 3rem;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 2.25rem;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 0.75rem;
+  font-weight: 500;
   color: #6773FF;
+  letter-spacing: 0.15em;
 }
 
 p {
   font-size: 0.875rem;
+  font-weight: 300;
+  opacity: .8;
 }
 
 .title {
   font-size: 4rem;
+  font-weight: 600;
 }
 
 .caption {
   font-size: 1.125rem;
+  font-weight: 300;
 }

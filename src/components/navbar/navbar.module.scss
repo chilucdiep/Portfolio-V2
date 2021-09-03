@@ -1,3 +1,27 @@
-.navbar {
-  background-color: antiquewhite;
+.Hidden {
+  display: none;
 }
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .Logo {
+    max-width: 80px;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 4em;
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+

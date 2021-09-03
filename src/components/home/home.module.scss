@@ -1,3 +1,25 @@
 .HomeContainer {
-    background-color: aliceblue;
+  .Hero {
+    display: flex;
+
+    .HeroText {
+      h3 {
+        display: flex;
+        align-items: center;
+      }
+
+      h3::before {
+        content: "";
+        display: inline-block;
+        width: 40px;
+        height: 2px;
+        background-color: #6773FF;
+        margin-right: 1em;
+      }
+
+      span {
+          font-weight: 500;
+      }
+    }
+  }
 }

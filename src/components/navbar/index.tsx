@@ -1,19 +1,33 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import styles from "./navbar.module.scss";
 
 import Logo from "../../images/Logo.svg";
 
 export default function Navbar() {
+  const [isMobileView, setIsMobileView] = useState(false);
+
+  useEffect(() => {
+    console.log(window.innerWidth)
+
+    if (window.innerWidth < 900) {
+        setIsMobileView(true);
+    }
+  })
+
   return (
     <div className={styles.Navbar}>
-      <img src={Logo} alt="Logo" className={styles.logo}></img>
-      <div className={styles.navlinks}>
+      <img src={Logo} alt="Logo" className={styles.Logo}></img>
+      <div className={styles.NavLinks}>
         <ul>
-          <li>Work</li>
-          <li>About</li>
+          <li>
+            <a href="#">Work</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
         </ul>
       </div>
-      <div className={styles.sociallinks}>
+      <div className={isMobileView ? styles.Hidden : styles.SocialLinks}>
         <ul>
           <li>In</li>
           <li>Git</li>
@@ -22,4 +36,4 @@ export default function Navbar() {
       </div>
     </div>
   );
-};
+}
