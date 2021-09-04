@@ -3,7 +3,8 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 ul {
@@ -34,14 +35,14 @@ h2 {
 h3 {
   font-size: 0.75rem;
   font-weight: 500;
-  color: #6773FF;
+  color: #6773ff;
   letter-spacing: 0.15em;
 }
 
 p {
   font-size: 0.875rem;
   font-weight: 300;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .title {
@@ -52,4 +53,14 @@ p {
 .caption {
   font-size: 1.125rem;
   font-weight: 300;
+}
+
+.Container {
+  max-width: 1300px;
+  padding: 0.6em 1.5em;
+
+
+  @media screen and (min-width: 1000px) {
+    padding: 0.8em 8em;
+  }
 }

@@ -13,12 +13,21 @@
         display: inline-block;
         width: 40px;
         height: 2px;
-        background-color: #6773FF;
+        background-color: #6773ff;
         margin-right: 1em;
       }
 
       span {
-          font-weight: 500;
+        font-weight: 500;
+      }
+    }
+
+    img {
+      width: 50%;
+      max-width: 500px;
+
+      @media screen and (max-width: 700px) {
+        display: none;
       }
     }
   }

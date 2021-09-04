@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.scss";
+import styles from "./App.module.scss";
 
 import HomeContainer from "./components/home";
 import Navbar from "./components/navbar";
@@ -7,9 +7,10 @@ import Navbar from "./components/navbar";
 export default function App() {
   return (
     <>
-      <Navbar />
-      <HomeContainer />
+      <div className={styles.Container}>
+        <Navbar />
+        <HomeContainer />
+      </div>
     </>
   );
 }
-
