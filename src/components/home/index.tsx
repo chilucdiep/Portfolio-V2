@@ -11,7 +11,9 @@ export default function HomeContainer() {
       <div className={styles.Hero}>
         <div className={styles.HeroText}>
           <h3>Oh hello! 👋</h3>
-          <h1 className="title">I'm Chi-Luc</h1>
+          <div className={styles.Typewriter}>
+            <h1 className="title">I'm Chi-Luc</h1>
+          </div>
           <p className="caption">
             A <span>Software Developer</span> & <span>UX Designer</span> focused
             on creating amazing and accessible digital experiences for people️.
