@@ -23,9 +23,9 @@ Props) {
   //     variant === 'add' || variant === 'collapse';
 
   return (
-    <button className={styles.Button} onClick={onClick}>
+    <a className={styles.Button} onClick={onClick}>
       <span>{icon}</span>
       {label}
-    </button>
+    </a>
   );
 }

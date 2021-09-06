@@ -1,4 +1,4 @@
-import styles from "./navbar.module.scss";
+import styles from "./Navbar.module.scss";
 
 import Logo from "../../images/Logo.svg";
 
