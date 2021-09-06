@@ -2,6 +2,11 @@
   display: none;
 }
 
+// .MuiSvgIcon-root {
+//   width: 20px !important;
+//   height: auto !important;
+// }
+
 .Navbar {
   display: flex;
   justify-content: space-between;
@@ -16,6 +21,11 @@
 
     li {
       margin-right: 4em;
+      transition: all .1s ease-in-out;
+
+      &:hover {
+        opacity: .7;
+      }
     }
 
     li:last-child {
@@ -24,8 +34,23 @@
   }
 
   .SocialLinks {
+    display: flex;
+    align-items: center;
     @media screen and (max-width: 700px) {
       display: none;
+    }
+
+    li {
+      margin-right: 3em;
+      width: 20px;
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+
+    .NavIcon {
+      width: 22px;
     }
   }
 }
