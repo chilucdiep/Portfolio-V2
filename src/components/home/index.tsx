@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Home.module.scss";
+import styles from "./home.module.scss";
 
 import HeroImg from "../../images/HeroImg.png";
 import { MAIL_ICON } from "../Global/Icons";

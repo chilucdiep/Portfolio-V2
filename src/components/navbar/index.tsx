@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import styles from "./Navbar.module.scss";
+import styles from "./navbar.module.scss";
 
 import Logo from "../../images/Logo.svg";
 
@@ -10,10 +9,10 @@ export default function Navbar() {
       <div className={styles.NavLinks}>
         <ul>
           <li>
-            <a href="#">Work</a>
+            <a href="/">Work</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="/">About</a>
           </li>
         </ul>
       </div>
