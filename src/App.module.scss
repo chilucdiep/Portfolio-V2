@@ -37,12 +37,25 @@ h3 {
   font-weight: 500;
   color: #6773ff;
   letter-spacing: 0.15em;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background-color: #6773ff;
+    margin-right: 1em;
+  }
 }
 
 p {
   font-size: 0.875rem;
   font-weight: 300;
   opacity: 0.8;
+  line-height: 180%;
 }
 
 .title {
@@ -58,7 +71,7 @@ p {
 .Container {
   max-width: 1300px;
   padding: 0.6em 1.5em;
-
+  margin: auto;
 
   @media screen and (min-width: 900px) {
     padding: 0.8em 10em;

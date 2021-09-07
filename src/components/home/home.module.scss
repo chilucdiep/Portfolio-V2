@@ -9,46 +9,49 @@
     }
 
     .HeroText {
-      h3 {
-        display: flex;
-        align-items: center;
-        margin: 0;
-      }
-
-      h3::before {
-        content: "";
-        display: inline-block;
-        width: 40px;
-        height: 2px;
-        background-color: #6773ff;
-        margin-right: 1em;
-      }
-
       h1 {
-        margin: .3em 0 .55em;
+        margin: 0.3em 0 0.55em;
       }
 
-      // .Typewriter h1 {
-      //   overflow: hidden; /* Ensures the content is not revealed until the animation */
-      //   border-right: .15em solid black; /* The typwriter cursor */
-      //   white-space: nowrap; /* Keeps the content on a single line */
-      //   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-      //   letter-spacing: .15em; /* Adjust as needed */
-      //   animation: 
-      //     typing 3.5s steps(40, end),
-      //     blink-caret .75s step-end infinite;
+      // .dynamic-txts {
+      //   overflow: hidden;
       // }
-      
-      // /* The typing effect */
+
+      // .dynamic-txts li {
+      //   font-size: 60px;
+      //   font-weight: 500;
+      //   position: relative;
+      //   top: 0;
+      //   animation: slide 12s steps(4) infinite;
+      // }
+      // @keyframes slide {
+      //   100% {
+      //     top: -360px;
+      //   }
+      // }
+      // .dynamic-txts li h1 {
+      //   position: relative;
+      //   margin: 5px 0;
+      //   line-height: 90px;
+      // }
+      // .dynamic-txts li h1::after {
+      //   content: "";
+      //   position: absolute;
+      //   left: 0;
+      //   height: 100%;
+      //   width: 100%;
+      //   background: #343f4f;
+      //   border-left: 2px solid #fc6d6d;
+      //   animation: typing 3s steps(10) infinite;
+      // }
       // @keyframes typing {
-      //   from { width: 0 }
-      //   to { width: 100% }
-      // }
-      
-      // /* The typewriter cursor effect */
-      // @keyframes blink-caret {
-      //   from, to { border-color: transparent }
-      //   50% { border-color: orange; }
+      //   40%,
+      //   60% {
+      //     left: calc(100% + 30px);
+      //   }
+      //   100% {
+      //     left: 0;
+      //   }
       // }
 
       p {

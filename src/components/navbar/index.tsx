@@ -8,7 +8,9 @@ import { MAIL_ICON } from "../Global/Icons";
 export default function Navbar() {
   return (
     <div className={styles.Navbar}>
-      <img src={Logo} alt="Logo" className={styles.Logo}></img>
+      <a href="/">
+        <img src={Logo} alt="Logo" className={styles.Logo}></img>
+      </a>
       <div className={styles.NavLinks}>
         <ul>
           <li>
@@ -39,7 +41,9 @@ export default function Navbar() {
               ></img>
             </a>
           </li>
-          <li><a href='mailto:chilucdiep@hotmail.com'>{MAIL_ICON}</a></li>
+          <li>
+            <a href="mailto:chilucdiep@hotmail.com">{MAIL_ICON}</a>
+          </li>
         </ul>
       </div>
     </div>

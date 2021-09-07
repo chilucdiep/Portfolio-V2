@@ -12,7 +12,21 @@ export default function HomeContainer() {
         <div className={styles.HeroText}>
           <h3>Oh hello! 👋</h3>
           <div className={styles.Typewriter}>
-            <h1 className="title">I'm Chi-Luc</h1>
+            <h1 className="title static-txt">I'm Chi-Luc</h1>
+            {/* <ul className="dynamic-txts">
+              <li>
+                <h1>YouTuber</h1>
+              </li>
+              <li>
+                <h1>Designer</h1>
+              </li>
+              <li>
+                <h1>Developer</h1>
+              </li>
+              <li>
+                <h1>Freelancer</h1>
+              </li>
+            </ul> */}
           </div>
           <p className="caption">
             A <span>Software Developer</span> & <span>UX Designer</span> focused
