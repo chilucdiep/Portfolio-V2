@@ -1,29 +1,15 @@
 import styles from "./Button.module.scss";
+import about from "../../Home/Home.module.scss";
 
 interface Props {
   label: string;
   icon: any;
-  //   variant?: 'primary' | 'secondary' | 'add' | 'collapse';
-  //   underline?: boolean;
-  //   selected?: boolean;
   onClick?(): void;
-  //   tight?: boolean;
 }
 
-export default function Button({
-  label,
-  icon,
-  //   tight,
-  onClick,
-}: //   selected,
-//   underline,
-//   variant = 'primary',
-Props) {
-  //   const isTertiary =
-  //     variant === 'add' || variant === 'collapse';
-
+export default function Button({ label, icon, onClick }: Props) {
   return (
-    <a className={styles.Button} onClick={onClick}>
+    <a className={`${styles.Button} ${about.AboutButton}`} onClick={onClick}>
       <span>{icon}</span>
       {label}
     </a>

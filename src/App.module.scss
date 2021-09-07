@@ -58,14 +58,9 @@ p {
   line-height: 180%;
 }
 
-.title {
-  font-size: 4rem;
+.Title {
+  font-size: 3.5rem;
   font-weight: 600;
-}
-
-.caption {
-  font-size: 1.125rem;
-  font-weight: 300;
 }
 
 .Container {
@@ -73,7 +68,7 @@ p {
   padding: 0.6em 1.5em;
   margin: auto;
 
-  @media screen and (min-width: 900px) {
-    padding: 0.8em 10em;
+  @media screen and (min-width: 1050px) {
+    padding: 0.8em 8em;
   }
 }

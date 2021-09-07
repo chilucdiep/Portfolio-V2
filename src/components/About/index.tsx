@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./About.module.scss";
+import globals from "../../App.module.scss";
 
 import AboutImg from "../../images/AboutImg.png";
 
@@ -7,8 +8,8 @@ export default function AboutContainer() {
   return (
     <div className={styles.AboutContainer}>
       <div className={styles.Hero}>
-        <h1 className="title">A quick blurb about me</h1>
-        <p className="caption">
+        <h1 className={globals.Title}>A quick blurb about me</h1>
+        <p>
           I am a driven, curious and detail-oriented front-end developer with
           experience in startups environment. 🚀
         </p>
