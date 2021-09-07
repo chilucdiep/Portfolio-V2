@@ -8,6 +8,7 @@ import Billmate from "../../images/Billmate.svg";
 import ColoredByte from "../../images/ColoredByte.svg";
 import Pratt from "../../images/Pratt.svg";
 import Wave from "../../images/Wave.svg";
+import MissionImg from "../../images/MissionImg.png";
 
 export default function AboutContainer() {
   return (
@@ -142,7 +143,46 @@ export default function AboutContainer() {
         </div>
         <img src={Wave} alt="Wave Separation" />
       </div>
-      <div className={styles.Mission}></div>
+      <div className={styles.Mission}>
+        <h3>What is important to me</h3>
+        <h2>My mission is to <span>empower people</span> through user-centered software</h2>
+        <div className={styles.Description}>
+          <div className={styles.Text}>
+            <p className={styles.Caption}>
+              I strive to create engaging user experiences that can help people
+              and I love creating products that provide solutions to real world
+              problems. Here are some of the things that help me thrive:
+            </p>
+            <ul>
+              <li>
+                <h4>Collaboration & Ownership</h4>
+                <p>
+                  Utilizing different people’s strenghts to create a solution
+                  and have an impact. Ownership promotes a proactive and
+                  committed behavior.
+                </p>
+              </li>
+              <li>
+                <h4>Diversity & Open-mindedness</h4>
+                <p>
+                  To me, diversity means the sharing of unique experiences,
+                  backgrounds and different point of views to bring new
+                  perspectives and constant growth.
+                </p>
+              </li>
+              <li>
+                <h4>Growth Mindset </h4>
+                <p>
+                  Learning is my primary goal. I love trying new things and
+                  taking on interesting challenges. I also believe that
+                  mentorship, feedback and transparency is essential for growth.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <img src={MissionImg} alt="Pratt Logo" className={styles.Smaller} />
+        </div>
+      </div>
     </div>
   );
 }

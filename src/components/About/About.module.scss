@@ -1,4 +1,8 @@
 .AboutContainer {
+  h2 {
+    margin: 0.5em 0 1em;
+  }
+
   .Hero {
     text-align: center;
     height: 350px;
@@ -46,10 +50,6 @@
       max-width: 500px;
       margin-left: 4.5em;
 
-      h2 {
-        margin: 0.5em 0 1em;
-      }
-
       p {
         font-size: 0.8rem;
       }
@@ -64,7 +64,6 @@
     }
 
     ul {
-      padding: 0;
       margin-top: 2em;
     }
 
@@ -74,10 +73,11 @@
   }
 
   .Experience {
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 
     h2 {
       opacity: 0.7;
+      margin: 0.5em 0;
     }
 
     .LogoGrid {
@@ -85,10 +85,54 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 8em;
       align-items: center;
-      margin-bottom: 3em;
+      margin-bottom: 5em;
 
       .Smaller {
         width: 60%;
+      }
+    }
+  }
+
+  .Mission {
+      margin-bottom: 5em;
+    h2 {
+      max-width: 630px;
+      margin-bottom: 0.5em;
+    
+      span {
+          color: #6773FF;
+      }
+    }
+
+    .Description {
+      @media screen and (min-width: 700px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .Text {
+        .Caption {
+            max-width: 700px;
+          margin-bottom: 3.2em;
+        }
+
+        li {
+          margin-top: 2.2em;
+
+          h4 {
+            margin: 0;
+          }
+
+          p {
+            font-size: 0.8rem;
+            max-width: 480px;
+          }
+        }
+      }
+
+      img {
+        max-width: 400px;
       }
     }
   }
