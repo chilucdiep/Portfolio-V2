@@ -8,7 +8,7 @@
     align-items: center;
 
     h1 {
-        margin-bottom: .2em;
+      margin: 0;
     }
 
     p {
@@ -16,20 +16,20 @@
     }
   }
 
-  .Experience {
+  .Journey {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2em 0;
+    margin: 2em 0 3em;
 
     @media screen and (max-width: 1000px) {
-        flex-direction: column;
-        
-        .AboutText {
-            margin-top: 2.5em;
-            margin-left: 0 !important;
-        }
+      flex-direction: column;
+
+      .AboutText {
+        margin-top: 2.5em;
+        margin-left: 0 !important;
       }
+    }
 
     .AboutImg {
       max-width: 500px;
@@ -43,16 +43,53 @@
     }
 
     .AboutText {
-        max-width: 500px;
-        margin-left: 4.5em;
+      max-width: 500px;
+      margin-left: 4.5em;
 
-        h2 {
-            margin: .5em 0 1em;
-        }
+      h2 {
+        margin: 0.5em 0 1em;
+      }
 
-        p {
-            font-size: 0.8rem;
-        }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .SkillGrid {
+    margin-bottom: 3em;
+    @media screen and (min-width: 700px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    ul {
+      padding: 0;
+      margin-top: 2em;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .Experience {
+    margin-bottom: 3em;
+
+    h2 {
+      opacity: 0.7;
+    }
+
+    .LogoGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 8em;
+      align-items: center;
+      margin-bottom: 3em;
+
+      .Smaller {
+        width: 60%;
+      }
     }
   }
 }

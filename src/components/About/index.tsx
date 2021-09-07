@@ -3,6 +3,11 @@ import styles from "./About.module.scss";
 import globals from "../../App.module.scss";
 
 import AboutImg from "../../images/AboutImg.png";
+import Coveo from "../../images/Coveo.svg";
+import Billmate from "../../images/Billmate.svg";
+import ColoredByte from "../../images/ColoredByte.svg";
+import Pratt from "../../images/Pratt.svg";
+import Wave from "../../images/Wave.svg";
 
 export default function AboutContainer() {
   return (
@@ -14,7 +19,7 @@ export default function AboutContainer() {
           experience in startups environment. 🚀
         </p>
       </div>
-      <div className={styles.Experience}>
+      <div className={styles.Journey}>
         <div className={styles.AboutImg}>
           <img src={AboutImg} alt="Profile Image" />
         </div>
@@ -43,6 +48,99 @@ export default function AboutContainer() {
             problems through Jiu-Jitsu and bouldering.
           </p>
         </div>
+      </div>
+      <div className={styles.SkillGrid}>
+        <div className={styles.Technologies}>
+          <h4>Technologies</h4>
+          <ul>
+            <li>
+              <p>HTML</p>
+            </li>
+            <li>
+              <p>CSS/Scss</p>
+            </li>
+            <li>
+              <p>JavaScript/TypeScript</p>
+            </li>
+            <li>
+              <p>React</p>
+            </li>
+            <li>
+              <p>Redux & Redux-Saga</p>
+            </li>
+            <li>
+              <p>Next.js</p>
+            </li>
+            <li>
+              <p>Material UI</p>
+            </li>
+            <li>
+              <p>Liquid</p>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.Tools}>
+          <h4>Tools</h4>
+          <ul>
+            <li>
+              <p>Figma</p>
+            </li>
+            <li>
+              <p>Adobe XD</p>
+            </li>
+            <li>
+              <p>Git</p>
+            </li>
+            <li>
+              <p>Github</p>
+            </li>
+            <li>
+              <p>VS Code</p>
+            </li>
+            <li>
+              <p>Shopify</p>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.Skills}>
+          <h4>Skills</h4>
+          <ul>
+            <li>
+              <p>Responsive design</p>
+            </li>
+            <li>
+              <p>Clean code & best pratices</p>
+            </li>
+            <li>
+              <p>Design systems</p>
+            </li>
+            <li>
+              <p>Algorithms & data structures</p>
+            </li>
+            <li>
+              <p>Accessibility</p>
+            </li>
+            <li>
+              <p>Prototyping</p>
+            </li>
+            <li>
+              <p>Design Thinking</p>
+            </li>
+            <li>
+              <p>Project management</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className={styles.Experience}>
+        <h2>I create products for your business needs.</h2>
+        <div className={styles.LogoGrid}>
+          <img src={Coveo} alt="Coveo Logo" />
+          <img src={Billmate} alt="Billmate Logo" className={styles.Smaller} />
+          <img src={ColoredByte} alt="ColoredByte Logo" />
+          <img src={Pratt} alt="Pratt Logo" className={styles.Smaller} />
+        </div>
+        <img src={Wave} alt="Wave Separation" />
       </div>
       <div className={styles.Mission}></div>
     </div>
