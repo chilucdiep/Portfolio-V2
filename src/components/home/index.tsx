@@ -3,7 +3,9 @@ import styles from "./Home.module.scss";
 import globals from "../../App.module.scss";
 
 import HeroImg from "../../images/HeroImg.png";
-import { MAIL_ICON } from "../Global/Icons";
+import Daylee from "../../images/DayleeThumbnail.svg";
+import Billmate from "../../images/BillmateThumbnail.svg";
+import { MAIL_ICON, ARROW_ICON } from "../Global/Icons";
 import Button from "../Global/Button";
 
 export default function HomeContainer() {
@@ -13,9 +15,9 @@ export default function HomeContainer() {
     try {
       await navigator.clipboard.writeText(email);
       alert("Copied email to clipboard: " + email);
-      console.log('Page URL copied to clipboard');
+      console.log("Page URL copied to clipboard");
     } catch (err) {
-      console.error('Failed to copy: ', err);
+      console.error("Failed to copy: ", err);
     }
   }
 
@@ -54,6 +56,41 @@ export default function HomeContainer() {
           </div>
         </div>
         <img src={HeroImg} alt="Hero Section" className={styles.HeroImg}></img>
+      </div>
+      <div className={styles.WorkContainer}>
+        <h1>Selected Work</h1>
+        <div className={styles.Works}>
+          <div className={styles.Left}>
+            <div className={styles.WorkText}>
+              <h3>A productivity app</h3>
+              <h2>Daylee</h2>
+              <p>
+                Daylee is a productivity web app where users can utilize various
+                tools and widgets such as habit trackers and bullet journaling
+                to organize their schedule and life.
+              </p>
+              <Button icon={ARROW_ICON} label="View Project" />
+            </div>
+            <div className={styles.WorkImg}>
+              <img src={Daylee} alt="Arrow Icon" />
+            </div>
+          </div>
+          <div className={styles.Right}>
+            <div className={styles.WorkText}>
+              <h3>A client management software</h3>
+              <h2>Billmate</h2>
+              <p>
+                Billmate is a productivity web app where users can utilize
+                various tools and widgets such as habit trackers and bullet
+                journaling to organize their schedule and life.
+              </p>
+              <Button icon={ARROW_ICON} label="View Project" />
+            </div>
+            <div className={styles.WorkImg}>
+              <img src={Billmate} alt="Arrow Icon" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
