@@ -39,6 +39,10 @@
       max-width: 500px;
       max-height: 500px;
       min-width: 400px;
+      
+      @media screen and (max-width: 700px) {
+        min-width: 200px;
+      }
 
       img {
         width: 100%;
@@ -87,8 +91,18 @@
       align-items: center;
       margin-bottom: 5em;
 
+      @media screen and (max-width: 700px) {
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 1em;
+        justify-items: center;
+      }
+
       .Smaller {
         width: 60%;
+      }
+
+      img {
+        min-width: 80px;
       }
     }
   }

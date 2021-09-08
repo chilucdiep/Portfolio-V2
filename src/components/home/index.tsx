@@ -59,6 +59,10 @@ export default function HomeContainer() {
       </div>
       <div className={styles.WorkContainer}>
         <h1>Selected Work</h1>
+        <div className={styles.Filters}>
+          <button className={styles.FilterButton}>Featured</button>
+          <button className={styles.FilterButton}>All</button>
+        </div>
         <div className={styles.Works}>
           <div className={styles.Left}>
             <div className={styles.WorkText}>
