@@ -1,5 +1,5 @@
 .HomeContainer {
-  .Hero {    
+  .Hero {
     margin-top: 5em;
 
     @media screen and (min-width: 700px) {
@@ -69,7 +69,7 @@
         margin-top: 4em;
         position: relative;
 
-        .AboutButton {
+        .HeroButton {
           position: relative;
 
           &::after {
@@ -90,7 +90,7 @@
           }
         }
 
-        .AboutButton:hover {
+        .HeroButton:hover {
           &::after {
             content: "Copy to clipboard";
             background-color: #6773ff;
@@ -176,16 +176,45 @@
       @media screen and (min-width: 700px) {
         .Left {
           display: flex;
+          align-items: center;
+          margin-bottom: 5em;
         }
 
         .Right {
           display: flex;
+          align-items: center;
           flex-direction: row-reverse;
+        }
+
+        h2 {
+          margin: 0.3em 0 0.8em;
         }
 
         p {
           max-width: 430px;
           margin-right: 3em;
+          margin-bottom: 4em;
+        }
+
+        .WorkButton {
+          display: flex;
+          flex-direction: row-reverse;
+          
+          span {
+            transform: translateX(0) scale(0.7);
+            margin: 0;
+            transition: transform 0.3s ease;
+
+            .MuiSvgIcon-root {
+              width: .5em !important;
+            }
+          }
+          
+          &:hover {
+            span {
+              transform: translateX(7px) scale(0.7);
+            }
+          }
         }
       }
     }
