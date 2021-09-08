@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./App.module.scss";
 
 import HomeContainer from "./components/Home";
@@ -7,12 +7,14 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export default function App() {
-  console.log(window.location.pathname)
+  const [page, setPage] = useState('home');
+
   return (
     <>
       <div className={styles.Container}>
-        <Navbar />
-        {window.location.pathname === `/about` ? <AboutContainer /> : <HomeContainer />}
+        <Navbar setPage={setPage} />
+        {page === `home` ? <HomeContainer /> : null}
+        {page === `about` ? <AboutContainer /> : null}
         <Footer />
       </div>
     </>

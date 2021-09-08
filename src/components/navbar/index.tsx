@@ -4,20 +4,25 @@ import Logo from "../../images/Logo.svg";
 import GithubIcon from "../../images/GithubIcon.png";
 import LinkedinIcon from "../../images/LinkedinIcon.png";
 import { MAIL_ICON } from "../Global/Icons";
+import { Dispatch, SetStateAction } from "react";
 
-export default function Navbar() {
+interface Props {
+  setPage: Dispatch<SetStateAction<string>>;
+}
+export default function Navbar({setPage}: Props) {
+
   return (
     <div className={styles.Navbar}>
-      <a href="/">
+      <a onClick={() => setPage("home")}>
         <img src={Logo} alt="Logo" className={styles.Logo}></img>
       </a>
       <div className={styles.NavLinks}>
         <ul>
+          <li> 
+            <a onClick={() => setPage("home")}>Work</a>
+          </li> 
           <li>
-            <a href="/">Work</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
+            <a onClick={() => setPage("about")}>About</a>
           </li>
         </ul>
       </div>
