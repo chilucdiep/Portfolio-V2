@@ -176,12 +176,14 @@
       @media screen and (min-width: 700px) {
         .Left {
           display: flex;
+          justify-content: space-between;
           align-items: center;
           margin-bottom: 5em;
         }
 
         .Right {
           display: flex;
+          justify-content: space-between;
           align-items: center;
           flex-direction: row-reverse;
         }
@@ -191,7 +193,7 @@
         }
 
         p {
-          max-width: 430px;
+          max-width: 540px;
           margin-right: 3em;
           margin-bottom: 4em;
         }

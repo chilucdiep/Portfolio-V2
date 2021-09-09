@@ -44,8 +44,9 @@ export default function HomeContainer() {
             </ul> */}
           </div>
           <p>
-            A <span>Software Developer</span> & <span>UX Designer</span> focused
-            on creating amazing and accessible digital experiences for people️.
+            A <span>Front-End Developer</span> & <span>UX Designer</span>{" "}
+            focused on creating amazing and accessible digital experiences for
+            people️.
           </p>
           <div className={styles.Button}>
             <Button
@@ -71,12 +72,24 @@ export default function HomeContainer() {
               <p>
                 Daylee is a productivity web app where users can utilize various
                 tools and widgets such as habit trackers and bullet journaling
-                to organize their schedule and life.
+                to organize their schedule and life. For this project, I created
+                the design system and built the entire front-end design.{" "}
+                <strong>**Under Construction**</strong>
               </p>
-              <Button icon={ARROW_ICON} label="View Project" />
+              <a
+                href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                target="_blank"
+              >
+                <Button icon={ARROW_ICON} label="View Project" />
+              </a>
             </div>
             <div className={styles.WorkImg}>
-              <img src={Daylee} alt="Arrow Icon" />
+              <a
+                href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                target="_blank"
+              >
+                <img src={Daylee} alt="Arrow Icon" />
+              </a>
             </div>
           </div>
           <div className={styles.Right}>
@@ -84,14 +97,20 @@ export default function HomeContainer() {
               <h3>A client management software</h3>
               <h2>Billmate</h2>
               <p>
-                Billmate is a productivity web app where users can utilize
-                various tools and widgets such as habit trackers and bullet
-                journaling to organize their schedule and life.
+                Billmate is an all-in-one platform that helps small businesses
+                manage their clients and operate their day-to-day activities. As
+                part of my internship, I created the entire company website,
+                from wireframing and mockups to development. I also built
+                various main features of the web app.
               </p>
-              <Button icon={ARROW_ICON} label="View Project" />
+              <a href="https://billmate.io/" target="_blank">
+                <Button icon={ARROW_ICON} label="View Project" />
+              </a>
             </div>
             <div className={styles.WorkImg}>
-              <img src={Billmate} alt="Arrow Icon" />
+              <a href="https://billmate.io/" target="_blank">
+                <img src={Billmate} alt="Arrow Icon" />
+              </a>
             </div>
           </div>
         </div>
