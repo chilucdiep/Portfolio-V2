@@ -201,20 +201,39 @@
         .WorkButton {
           display: flex;
           flex-direction: row-reverse;
-          
+
           span {
             transform: translateX(0) scale(0.7);
             margin: 0;
             transition: transform 0.3s ease;
 
             .MuiSvgIcon-root {
-              width: .5em !important;
+              width: 0.5em !important;
             }
           }
-          
+
           &:hover {
             span {
               transform: translateX(7px) scale(0.7);
+            }
+          }
+        }
+
+        .WorkImg {
+          svg {
+            overflow: visible;
+
+            .Pomodoro {
+              transform-origin: center;
+              transform-box: fill-box;
+              transform: rotateZ(-20deg) translate(40px, -15px);
+              transition: all .3s ease-in-out;
+            }
+
+            &:hover {
+              .Pomodoro {
+                transform: rotateZ(-12deg) translate(50px, -15px);
+              }
             }
           }
         }

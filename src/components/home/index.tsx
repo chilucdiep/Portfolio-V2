@@ -3,10 +3,11 @@ import styles from "./Home.module.scss";
 import globals from "../../App.module.scss";
 
 import HeroImg from "../../images/HeroImg.png";
-import Daylee from "../../images/DayleeThumbnail.svg";
+// import Daylee from "../../images/DayleeThumbnail.svg";
 import Billmate from "../../images/BillmateThumbnail.svg";
 import { MAIL_ICON, ARROW_ICON } from "../Global/Icons";
 import Button from "../Global/Button";
+import Daylee from "../Daylee";
 
 export default function HomeContainer() {
   async function copyEmail() {
@@ -88,7 +89,8 @@ export default function HomeContainer() {
                 href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
                 target="_blank"
               >
-                <img src={Daylee} alt="Arrow Icon" />
+                {/* <img src={Daylee} alt="Arrow Icon" /> */}
+                <Daylee />
               </a>
             </div>
           </div>
