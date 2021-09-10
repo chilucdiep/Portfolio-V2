@@ -19,10 +19,10 @@ export default function HomeContainer() {
 
     try {
       await navigator.clipboard.writeText(email);
-      alert("Copied email to clipboard: " + email);
+      alert("You copied " + email + " to your clipboard!");
       console.log("Page URL copied to clipboard");
     } catch (err) {
-      console.error("Failed to copy: ", err);
+      console.error("Failed to copy", err);
     }
   }
 
@@ -162,7 +162,7 @@ export default function HomeContainer() {
                 </div>
                 <div className={styles.WorkImg}>
                   <a
-                    href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                    href="https://chilucdiep.github.io/ShopifyChallenge/"
                     target="_blank"
                   >
                     {/* <img src={Daylee} alt="Arrow Icon" /> */}
@@ -182,12 +182,12 @@ export default function HomeContainer() {
                     development. I also built various main features of the web
                     app.
                   </p>
-                  <a href="https://billmate.io/" target="_blank">
+                  <a href="https://chilucdiep.github.io/Portfolio/" target="_blank">
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                  <a href="https://billmate.io/" target="_blank">
+                  <a href="https://chilucdiep.github.io/Portfolio/" target="_blank">
                     <div className={styles.LogoContainer}>
                       {/* <img
                         src={BillmateLogo}
