@@ -1,16 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Home.module.scss";
 import globals from "../../App.module.scss";
 
 import HeroImg from "../../images/HeroImg.png";
-// import Daylee from "../../images/DayleeThumbnail.svg";
 import BillmateLogo from "../../images/BillmateLogo.svg";
 import { MAIL_ICON, ARROW_ICON } from "../Global/Icons";
 import Button from "../Global/Button";
 import Daylee from "../Daylee";
 import Billmate from "../Billmate";
+import Shoppies from "../Shoppies";
+import Portfolio from "../Portfolio";
 
 export default function HomeContainer() {
+  const [workType, setWorkType] = useState("featured");
+
   async function copyEmail() {
     const email = "chilucdiep@hotmail.com";
 
@@ -63,66 +66,141 @@ export default function HomeContainer() {
       <div className={styles.WorkContainer}>
         <h1>Selected Work</h1>
         <div className={styles.Filters}>
-          <button className={styles.FilterButton}>Featured</button>
-          <button className={styles.FilterButton}>All</button>
+          <button
+            className={styles.FilterButton}
+            onClick={() => setWorkType("featured")}
+          >
+            Featured
+          </button>
+          <button
+            className={styles.FilterButton}
+            onClick={() => setWorkType("other")}
+          >
+            Other
+          </button>
         </div>
         <div className={styles.Works}>
-          <div className={styles.Left}>
-            <div className={styles.WorkText}>
-              <h3>A productivity app</h3>
-              <h2>Daylee</h2>
-              <p>
-                Daylee is a productivity web app where users can utilize various
-                tools and widgets such as habit trackers and bullet journaling
-                to organize their schedule and life. For this project, I created
-                the design system and built the entire front-end design.{" "}
-                <strong>**Under Construction**</strong>
-              </p>
-              <a
-                href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
-                target="_blank"
-              >
-                <Button icon={ARROW_ICON} label="View Project" />
-              </a>
-            </div>
-            <div className={styles.WorkImg}>
-              <a
-                href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
-                target="_blank"
-              >
-                {/* <img src={Daylee} alt="Arrow Icon" /> */}
-                <Daylee />
-              </a>
-            </div>
-          </div>
-          <div className={styles.Right}>
-            <div className={styles.WorkText}>
-              <h3>A client management software</h3>
-              <h2>Billmate</h2>
-              <p>
-                Billmate is an all-in-one platform that helps small businesses
-                manage their clients and operate their day-to-day activities. As
-                part of my internship, I created the entire company website,
-                from wireframing and mockups to development. I also built
-                various main features of the web app.
-              </p>
-              <a href="https://billmate.io/" target="_blank">
-                <Button icon={ARROW_ICON} label="View Project" />
-              </a>
-            </div>
-            <div className={styles.WorkImg}>
-              <a href="https://billmate.io/" target="_blank">
-                <div className={styles.LogoContainer}>
-                  <img
-                    src={BillmateLogo}
-                    alt="Arrow Icon"
-                    className={styles.BillmateLogo}
-                  />
-                  <Billmate />
+          {workType === "featured" ? (
+            <>
+              <div className={styles.Left}>
+                <div className={styles.WorkText}>
+                  <h3>A productivity app</h3>
+                  <h2>Daylee</h2>
+                  <p>
+                    Daylee is a productivity web app where users can utilize
+                    various tools and widgets such as habit trackers and bullet
+                    journaling to organize their schedule and life. For this
+                    project, I created the design system and built the entire
+                    front-end design. <strong>**Under Construction**</strong>
+                  </p>
+                  <a
+                    href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                    target="_blank"
+                  >
+                    <Button icon={ARROW_ICON} label="View Project" />
+                  </a>
                 </div>
-              </a>
-            </div>
-          </div>
+                <div className={styles.WorkImg}>
+                  <a
+                    href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                    target="_blank"
+                  >
+                    {/* <img src={Daylee} alt="Arrow Icon" /> */}
+                    <Daylee />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.Right}>
+                <div className={styles.WorkText}>
+                  <h3>A client management software</h3>
+                  <h2>Billmate</h2>
+                  <p>
+                    Billmate is an all-in-one platform that helps small
+                    businesses manage their clients and operate their day-to-day
+                    activities. As part of my internship, I created the entire
+                    company website, from wireframing and mockups to
+                    development. I also built various main features of the web
+                    app.
+                  </p>
+                  <a href="https://billmate.io/" target="_blank">
+                    <Button icon={ARROW_ICON} label="View Project" />
+                  </a>
+                </div>
+                <div className={styles.WorkImg}>
+                  <a href="https://billmate.io/" target="_blank">
+                    <div className={styles.LogoContainer}>
+                      <img
+                        src={BillmateLogo}
+                        alt="Arrow Icon"
+                        className={styles.BillmateLogo}
+                      />
+                      <Billmate />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className={styles.Left}>
+                <div className={styles.WorkText}>
+                  <h3>A movie app</h3>
+                  <h2>Shoppies</h2>
+                  <p>
+                    Daylee is a productivity web app where users can utilize
+                    various tools and widgets such as habit trackers and bullet
+                    journaling to organize their schedule and life. For this
+                    project, I created the design system and built the entire
+                    front-end design.
+                  </p>
+                  <a
+                    href="https://chilucdiep.github.io/ShopifyChallenge/"
+                    target="_blank"
+                  >
+                    <Button icon={ARROW_ICON} label="View Project" />
+                  </a>
+                </div>
+                <div className={styles.WorkImg}>
+                  <a
+                    href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                    target="_blank"
+                  >
+                    {/* <img src={Daylee} alt="Arrow Icon" /> */}
+                    <Shoppies />
+                  </a>
+                </div>
+              </div>
+              <div className={styles.Right}>
+                <div className={styles.WorkText}>
+                  <h3>My first website ever!</h3>
+                  <h2>Portfolio V1</h2>
+                  <p>
+                    Billmate is an all-in-one platform that helps small
+                    businesses manage their clients and operate their day-to-day
+                    activities. As part of my internship, I created the entire
+                    company website, from wireframing and mockups to
+                    development. I also built various main features of the web
+                    app.
+                  </p>
+                  <a href="https://billmate.io/" target="_blank">
+                    <Button icon={ARROW_ICON} label="View Project" />
+                  </a>
+                </div>
+                <div className={styles.WorkImg}>
+                  <a href="https://billmate.io/" target="_blank">
+                    <div className={styles.LogoContainer}>
+                      {/* <img
+                        src={BillmateLogo}
+                        alt="Arrow Icon"
+                        className={styles.BillmateLogo}
+                      /> */}
+                      <Portfolio />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>
