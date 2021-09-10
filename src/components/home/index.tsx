@@ -4,10 +4,11 @@ import globals from "../../App.module.scss";
 
 import HeroImg from "../../images/HeroImg.png";
 // import Daylee from "../../images/DayleeThumbnail.svg";
-import Billmate from "../../images/BillmateThumbnail.svg";
+import BillmateLogo from "../../images/BillmateLogo.svg";
 import { MAIL_ICON, ARROW_ICON } from "../Global/Icons";
 import Button from "../Global/Button";
 import Daylee from "../Daylee";
+import Billmate from "../Billmate";
 
 export default function HomeContainer() {
   async function copyEmail() {
@@ -111,7 +112,14 @@ export default function HomeContainer() {
             </div>
             <div className={styles.WorkImg}>
               <a href="https://billmate.io/" target="_blank">
-                <img src={Billmate} alt="Arrow Icon" />
+                <div className={styles.LogoContainer}>
+                  <img
+                    src={BillmateLogo}
+                    alt="Arrow Icon"
+                    className={styles.BillmateLogo}
+                  />
+                  <Billmate />
+                </div>
               </a>
             </div>
           </div>
