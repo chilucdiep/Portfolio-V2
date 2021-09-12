@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8af4066c.chunk.css",
+    "main.js": "./static/js/main.45c011e1.chunk.js",
+    "main.js.map": "./static/js/main.45c011e1.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.bebe0109.js",
+    "runtime-main.js.map": "./static/js/runtime-main.bebe0109.js.map",
+    "static/js/2.5d326b2e.chunk.js": "./static/js/2.5d326b2e.chunk.js",
+    "static/js/2.5d326b2e.chunk.js.map": "./static/js/2.5d326b2e.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.8af4066c.chunk.css.map": "./static/css/main.8af4066c.chunk.css.map",
+    "static/js/2.5d326b2e.chunk.js.LICENSE.txt": "./static/js/2.5d326b2e.chunk.js.LICENSE.txt",
+    "static/media/AboutImg.20072681.png": "./static/media/AboutImg.20072681.png",
+    "static/media/Billmate.b998bcf9.svg": "./static/media/Billmate.b998bcf9.svg",
+    "static/media/BillmateLogo.8bed7ea7.svg": "./static/media/BillmateLogo.8bed7ea7.svg",
+    "static/media/ColoredByte.9271bfa2.svg": "./static/media/ColoredByte.9271bfa2.svg",
+    "static/media/Coveo.3aafb89f.svg": "./static/media/Coveo.3aafb89f.svg",
+    "static/media/GithubIcon.54869ca9.png": "./static/media/GithubIcon.54869ca9.png",
+    "static/media/HeroImg.07b2c599.png": "./static/media/HeroImg.07b2c599.png",
+    "static/media/Logo.223c9b1c.svg": "./static/media/Logo.223c9b1c.svg",
+    "static/media/MissionImg.1a01f23d.png": "./static/media/MissionImg.1a01f23d.png",
+    "static/media/Pratt.1e2e305a.svg": "./static/media/Pratt.1e2e305a.svg",
+    "static/media/Wave.159a3122.svg": "./static/media/Wave.159a3122.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bebe0109.js",
+    "static/js/2.5d326b2e.chunk.js",
+    "static/css/main.8af4066c.chunk.css",
+    "static/js/main.45c011e1.chunk.js"
+  ]
+}
