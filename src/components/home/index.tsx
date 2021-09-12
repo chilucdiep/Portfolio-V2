@@ -13,9 +13,9 @@ import Portfolio from "../Portfolio";
 
 export default function HomeContainer() {
   const [workType, setWorkType] = useState("featured");
-  const [selected, setselected] = useState(true);
 
-  // const SelectedClasses = 
+  const FeaturedSelectedClasses = (workType === 'featured') ? styles.Selected : null;
+  const OtherSelectedClasses = (workType === 'other') ? styles.Selected : null;
 
   async function copyEmail() {
     const email = "chilucdiep@hotmail.com";
@@ -70,13 +70,13 @@ export default function HomeContainer() {
         <h1>Selected Work</h1>
         <div className={styles.Filters}>
           <button
-            className={styles.FilterButton}
+            className={`${FeaturedSelectedClasses} ${styles.FilterButton}`}
             onClick={() => setWorkType("featured")}
           >
             Featured
           </button>
           <button
-            className={`${styles.Selected} ${styles.FilterButton}`}
+            className={`${OtherSelectedClasses} ${styles.FilterButton}`}
             onClick={() => setWorkType("other")}
           >
             Other
