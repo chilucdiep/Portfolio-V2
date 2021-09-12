@@ -170,6 +170,11 @@
           cursor: pointer;
         }
       }
+
+      .Selected {
+        background-color: rgba(196, 188, 255, 0.2);
+        opacity: 0.8;
+      }
     }
 
     .Works {
@@ -273,7 +278,7 @@
             }
 
             .Graph {
-              transform: rotateZ(-13deg) translate(20px, -30px) scale(.9);
+              transform: rotateZ(-13deg) translate(20px, -30px) scale(0.9);
             }
           }
         }
@@ -284,7 +289,7 @@
           left: 40%;
           transform: translate(-40%, -40%);
           width: 135px;
-          pointer-events: none
+          pointer-events: none;
         }
       }
     }
