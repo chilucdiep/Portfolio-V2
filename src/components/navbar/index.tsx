@@ -19,7 +19,7 @@ export default function Navbar({setPage}: Props) {
       <div className={styles.NavLinks}>
         <ul>
           <li> 
-            <a onClick={() => setPage("home")}>Work</a>
+            <a href='#work'>Work</a>
           </li> 
           <li>
             <a onClick={() => setPage("about")}>About</a>

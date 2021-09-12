@@ -66,7 +66,7 @@ export default function HomeContainer() {
         </div>
         <img src={HeroImg} alt="Hero Section" className={styles.HeroImg}></img>
       </div>
-      <div className={styles.WorkContainer}>
+      <div className={styles.WorkContainer} id='work'>
         <h1>Selected Work</h1>
         <div className={styles.Filters}>
           <button
