@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://chilucdiep.github.io/Portfolio-V2/",
+  "homepage": "https://chilucdiep.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
