@@ -4,6 +4,7 @@ import globals from "../../App.module.scss";
 
 import HeroImg from "../../images/HeroImg.png";
 import BillmateLogo from "../../images/BillmateLogo.svg";
+import PortfolioV1Logo from "../../images/PortfolioV1Logo.svg";
 import { MAIL_ICON, ARROW_ICON } from "../Global/Icons";
 import Button from "../Global/Button";
 import Daylee from "../Daylee";
@@ -168,7 +169,6 @@ export default function HomeContainer() {
                     href="https://chilucdiep.github.io/ShopifyChallenge/"
                     target="_blank"
                   >
-                    {/* <img src={Daylee} alt="Arrow Icon" /> */}
                     <Shoppies />
                   </a>
                 </div>
@@ -192,11 +192,11 @@ export default function HomeContainer() {
                 <div className={styles.WorkImg}>
                   <a href="https://chilucdiep.github.io/Portfolio/" target="_blank">
                     <div className={styles.LogoContainer}>
-                      {/* <img
-                        src={BillmateLogo}
+                      <img
+                        src={PortfolioV1Logo}
                         alt="Arrow Icon"
-                        className={styles.BillmateLogo}
-                      /> */}
+                        className={styles.PortfolioV1Logo}
+                      />
                       <Portfolio />
                     </div>
                   </a>

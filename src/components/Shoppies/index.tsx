@@ -46,6 +46,7 @@ export default function Shoppies() {
           fill="url(#pattern0)"
         />
         <rect
+          className={styles.Trophy}
           x="0.973938"
           y="259.85"
           width="86.583"
@@ -80,7 +81,7 @@ export default function Shoppies() {
             height="1"
           >
             <use
-             xlinkHref="#image0"
+              xlinkHref="#image0"
               transform="translate(0 -5.26316) scale(0.00069735 0.00584795)"
             />
           </pattern>

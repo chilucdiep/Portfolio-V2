@@ -281,6 +281,32 @@
               transform: rotateZ(-13deg) translate(20px, -30px) scale(0.9);
             }
           }
+
+          .Trophy {
+            transform-origin: center;
+            transform-box: fill-box;
+            transform: rotateZ(-25deg) translate(35px, -15px);
+            transition: all 0.3s ease-in-out;
+          }
+
+          &:hover {
+            .Trophy {
+              transform: rotateZ(-5deg) translate(45px, -25px);
+            }
+          }
+
+          .Guy {
+            transform-origin: center;
+            transform-box: fill-box;
+            transform: rotateZ(0deg) translate(0px, -10px);
+            transition: all 0.3s ease-in-out;
+          }
+
+          &:hover {
+            .Guy {
+              transform: rotateZ(-20deg) translate(-20px, -15px);
+            }
+          }
         }
 
         .BillmateLogo {
@@ -288,8 +314,25 @@
           top: 40%;
           left: 40%;
           transform: translate(-40%, -40%);
-          width: 120px;
+          width: 70px;
           pointer-events: none;
+
+          @media screen and (min-width: 700px) {
+            width: 130px;
+          }
+        }
+
+        .PortfolioV1Logo {
+          position: absolute;
+          top: 41%;
+          left: 37.5%;
+          transform: translate(-37.5%, -41%);
+          width: 70px;
+          pointer-events: none;
+
+          @media screen and (min-width: 700px) {
+            width: 100px;
+          }
         }
       }
     }
