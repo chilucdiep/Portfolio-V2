@@ -12,8 +12,32 @@
 
     .HeroText {
       margin-right: 1em;
+
       h1 {
-        margin: 0.1em 0 0.3em;
+        margin: 0.1em 0 0.5em;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        border-right: 0.15em solid black;
+        animation: typing 1s steps(10, end),
+          blink 1s infinite;
+        width: 330px;
+        height: 76px;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 330px;
+        }
+      }
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
       }
 
       // .dynamic-txts {
@@ -201,13 +225,12 @@
       p {
         max-width: 540px;
         margin-right: 3em;
-        margin-bottom: 4em;
       }
 
       .WorkButton {
         display: flex;
         flex-direction: row-reverse;
-        margin-bottom: 3em;
+        margin: 3em 0;
 
         span {
           transform: translateX(0) scale(0.7);

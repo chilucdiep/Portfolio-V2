@@ -32,9 +32,9 @@ export default function AboutContainer() {
             Montreal, Canada. I’m currently a UX Designer Intern at Coveo.
           </p>
           <p>
-            From helping businesses manage sales through Billmate, to making
+            From helping businesses manage their sales through Billmate's software, to making
             scheduling and journaling more accessible with Daylee, I’m always
-            looking for ways to empower people by tackling interesting
+            looking for ways to help people by tackling interesting
             challenges.
           </p>
           <p>

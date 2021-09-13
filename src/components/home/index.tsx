@@ -15,8 +15,9 @@ import Portfolio from "../Portfolio";
 export default function HomeContainer() {
   const [workType, setWorkType] = useState("featured");
 
-  const FeaturedSelectedClasses = (workType === 'featured') ? styles.Selected : null;
-  const OtherSelectedClasses = (workType === 'other') ? styles.Selected : null;
+  const FeaturedSelectedClasses =
+    workType === "featured" ? styles.Selected : null;
+  const OtherSelectedClasses = workType === "other" ? styles.Selected : null;
 
   async function copyEmail() {
     const email = "chilucdiep@hotmail.com";
@@ -67,7 +68,7 @@ export default function HomeContainer() {
         </div>
         <img src={HeroImg} alt="Hero Section" className={styles.HeroImg}></img>
       </div>
-      <div className={styles.WorkContainer} id='work'>
+      <div className={styles.WorkContainer} id="work">
         <h1>Selected Work</h1>
         <div className={styles.Filters}>
           <button
@@ -97,6 +98,7 @@ export default function HomeContainer() {
                     project, I created the design system and built the entire
                     front-end design. <strong>**Under Construction**</strong>
                   </p>
+                  <p>TypeScript, React, Next.js, Scss, Figma</p>
                   <a
                     href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
                     target="_blank"
@@ -109,7 +111,6 @@ export default function HomeContainer() {
                     href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
                     target="_blank"
                   >
-                    {/* <img src={Daylee} alt="Arrow Icon" /> */}
                     <Daylee />
                   </a>
                 </div>
@@ -126,6 +127,7 @@ export default function HomeContainer() {
                     development. I also built various main features of the web
                     app.
                   </p>
+                  <p>TypeScript, React, Redux-Saga, Next.js, Scss, Figma</p>
                   <a href="https://billmate.io/" target="_blank">
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
@@ -151,12 +153,12 @@ export default function HomeContainer() {
                   <h3>A movie app</h3>
                   <h2>Shoppies</h2>
                   <p>
-                    Daylee is a productivity web app where users can utilize
-                    various tools and widgets such as habit trackers and bullet
-                    journaling to organize their schedule and life. For this
-                    project, I created the design system and built the entire
-                    front-end design.
+                    The Shoppies is movie awards app where users can search for
+                    a movie, read its information and add/remove 5 movie
+                    nominations. For this fun challenge, I fetched the OMDB’s
+                    API to display the movies posters and information.
                   </p>
+                  <p>React, Scss, Figma</p>
                   <a
                     href="https://chilucdiep.github.io/ShopifyChallenge/"
                     target="_blank"
@@ -178,19 +180,26 @@ export default function HomeContainer() {
                   <h3>My first website ever!</h3>
                   <h2>Portfolio V1</h2>
                   <p>
-                    Billmate is an all-in-one platform that helps small
-                    businesses manage their clients and operate their day-to-day
-                    activities. As part of my internship, I created the entire
-                    company website, from wireframing and mockups to
-                    development. I also built various main features of the web
-                    app.
+                    This is the first website I ever built after discovering web
+                    development and UX design. I am really proud of this project
+                    because this is where I first learned to use Figma HTML &
+                    CSS (but don't look too closely into the code because you
+                    might find some of the worst coding practices #whoops). Feel
+                    free to click below to see my older projects!
                   </p>
-                  <a href="https://chilucdiep.github.io/Portfolio/" target="_blank">
+                  <p>JavaScript, HTML, Scss, Figma</p>
+                  <a
+                    href="https://chilucdiep.github.io/Portfolio/"
+                    target="_blank"
+                  >
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                  <a href="https://chilucdiep.github.io/Portfolio/" target="_blank">
+                  <a
+                    href="https://chilucdiep.github.io/Portfolio/"
+                    target="_blank"
+                  >
                     <div className={styles.LogoContainer}>
                       <img
                         src={PortfolioV1Logo}
