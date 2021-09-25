@@ -183,9 +183,7 @@ export default function HomeContainer() {
                     This is the first website I ever built after discovering web
                     development and UX design. I am really proud of this project
                     because this is where I first learned to use Figma HTML &
-                    CSS (but don't look too closely into the code because you
-                    might find some of the worst coding practices #whoops). Feel
-                    free to click below to see my older projects!
+                    CSS. This portfolio displays some of my older projects.
                   </p>
                   <p>JavaScript, HTML, Scss, Figma</p>
                   <a

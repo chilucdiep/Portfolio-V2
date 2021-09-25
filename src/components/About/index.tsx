@@ -158,7 +158,7 @@ export default function AboutContainer() {
                 <h4>Collaboration & Ownership</h4>
                 <p>
                   Utilizing different people’s strenghts to create a solution
-                  and have an impact. Ownership promotes a proactive and
+                  and have an impact. The feeling of ownership shared among team members promotes a proactive and
                   committed behavior.
                 </p>
               </li>
