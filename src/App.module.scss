@@ -8,6 +8,11 @@ body {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background-color: #6773ff;
+  color: white;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
