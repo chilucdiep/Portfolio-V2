@@ -110,7 +110,7 @@ export default function AboutContainer() {
               <p>Responsive design</p>
             </li>
             <li>
-              <p>Clean code & best pratices</p>
+              <p>Clean code & best practices</p>
             </li>
             <li>
               <p>Design systems</p>

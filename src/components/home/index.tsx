@@ -98,9 +98,11 @@ export default function HomeContainer() {
                     project, I created the design system and built the entire
                     front-end design. <strong>**Under Construction**</strong>
                   </p>
-                  <p>TypeScript, React, Next.js, Scss, Figma</p>
+                  <p>TypeScript, React, Next.js, Scss,
+                    <a href='https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1' target="_blank" style={{color: "#6773FF"}}><strong> Figma</strong></a>
+                  </p>
                   <a
-                    href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                    href="https://daylee-web.herokuapp.com/"
                     target="_blank"
                   >
                     <Button icon={ARROW_ICON} label="View Project" />
@@ -108,7 +110,7 @@ export default function HomeContainer() {
                 </div>
                 <div className={styles.WorkImg}>
                   <a
-                    href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                    href="https://daylee-web.herokuapp.com/"
                     target="_blank"
                   >
                     <Daylee />
