@@ -1,0 +1,48 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    margin: 0;
+
+    li {
+      margin-right: 4em;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .SocialLinks {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+      display: none;
+    }
+
+    li {
+      margin-right: 3em;
+      width: 20px;
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+
+    .NavIcon {
+      width: 22px;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
