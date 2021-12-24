@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styles from "./App.module.scss";
 
 import HomeContainer from "./components/Home";
@@ -7,16 +8,17 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export default function App() {
-  const [page, setPage] = useState('home');
-
   return (
-    <>
+    <BrowserRouter>
       <div className={styles.Container}>
-        <Navbar setPage={setPage} />
-        {page === `home` ? <HomeContainer /> : null}
-        {page === `about` ? <AboutContainer /> : null}
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomeContainer />} />
+          <Route path="/about" element={<AboutContainer />} />
+          <Route path="*" element={<div>404 Page Not Found</div>} />
+        </Routes>
         <Footer />
       </div>
-    </>
+    </BrowserRouter>
   );
 }
