@@ -5,7 +5,6 @@ import Logo from "../../images/Logo.svg";
 import GithubIcon from "../../images/GithubIcon.png";
 import LinkedinIcon from "../../images/LinkedinIcon.png";
 import { MAIL_ICON } from "../Global/Icons";
-import { Dispatch, SetStateAction } from "react";
 
 export default function Navbar() {
   console.log(window.location.pathname)
@@ -17,9 +16,9 @@ export default function Navbar() {
       <div className={styles.NavLinks}>
         <ul>
           <li>
-            <Link to='/'>
+            <a href='/#work'>
               Work
-            </Link>
+            </a>
           </li>
           <li>
             <Link to="/about">About</Link>
