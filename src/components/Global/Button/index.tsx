@@ -1,5 +1,5 @@
 import styles from "./Button.module.scss";
-import home from "../../Home/Home.module.scss";
+import work from "../../Home/Work/Work.module.scss";
 
 interface Props {
   label: string;
@@ -9,7 +9,7 @@ interface Props {
 
 export default function Button({ label, icon, onClick }: Props) {
   return (
-    <a className={`${styles.Button} ${home.HeroButton} ${home.WorkButton}`} onClick={onClick}>
+    <a className={`${styles.Button} ${work.HeroButton} ${work.WorkButton}`} onClick={onClick}>
       <span>{icon}</span>
       {label}
     </a>

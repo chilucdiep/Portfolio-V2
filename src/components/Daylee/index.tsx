@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Home/Home.module.scss";
+import styles from "../Home/Work/Work.module.scss";
 
 export default function Daylee() {
   return (
