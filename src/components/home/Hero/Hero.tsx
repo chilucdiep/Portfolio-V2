@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Hero.module.scss";
-import globals from "../../App.module.scss";
+import globals from "../../../App.module.scss";
 
 import Button from "../../Global/Button";
-import HeroImg from "../../images/HeroImg.png";
+import HeroImg from "../../../images/HeroImg.png";
 import { MAIL_ICON } from "../../Global/Icons";
 
 export default function Hero() {
