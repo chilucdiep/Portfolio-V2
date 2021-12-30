@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.8b649c01.chunk.css",
-    "main.js": "./static/js/main.49d04548.chunk.js",
-    "main.js.map": "./static/js/main.49d04548.chunk.js.map",
+    "main.css": "./static/css/main.e6ede383.chunk.css",
+    "main.js": "./static/js/main.13d081b7.chunk.js",
+    "main.js.map": "./static/js/main.13d081b7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.bebe0109.js",
     "runtime-main.js.map": "./static/js/runtime-main.bebe0109.js.map",
-    "static/js/2.86409e33.chunk.js": "./static/js/2.86409e33.chunk.js",
-    "static/js/2.86409e33.chunk.js.map": "./static/js/2.86409e33.chunk.js.map",
+    "static/js/2.87f5feb5.chunk.js": "./static/js/2.87f5feb5.chunk.js",
+    "static/js/2.87f5feb5.chunk.js.map": "./static/js/2.87f5feb5.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.8b649c01.chunk.css.map": "./static/css/main.8b649c01.chunk.css.map",
-    "static/js/2.86409e33.chunk.js.LICENSE.txt": "./static/js/2.86409e33.chunk.js.LICENSE.txt",
+    "static/css/main.e6ede383.chunk.css.map": "./static/css/main.e6ede383.chunk.css.map",
+    "static/js/2.87f5feb5.chunk.js.LICENSE.txt": "./static/js/2.87f5feb5.chunk.js.LICENSE.txt",
     "static/media/AboutImg.20072681.png": "./static/media/AboutImg.20072681.png",
     "static/media/Billmate.b998bcf9.svg": "./static/media/Billmate.b998bcf9.svg",
     "static/media/BillmateLogo.8bed7ea7.svg": "./static/media/BillmateLogo.8bed7ea7.svg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bebe0109.js",
-    "static/js/2.86409e33.chunk.js",
-    "static/css/main.8b649c01.chunk.css",
-    "static/js/main.49d04548.chunk.js"
+    "static/js/2.87f5feb5.chunk.js",
+    "static/css/main.e6ede383.chunk.css",
+    "static/js/main.13d081b7.chunk.js"
   ]
 }
