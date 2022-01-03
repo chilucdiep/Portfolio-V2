@@ -71,9 +71,11 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
+                  <div className={styles.Overlay}>
                   <a href="https://daylee-web.herokuapp.com/" target="_blank">
                     <Daylee />
                   </a>
+                </div>
                 </div>
               </div>
               <div className={styles.Right}>
