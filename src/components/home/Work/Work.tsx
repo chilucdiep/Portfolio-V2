@@ -71,11 +71,10 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                  <div className={styles.Overlay}>
+                  <div className={styles.Overlay}></div>
                   <a href="https://daylee-web.herokuapp.com/" target="_blank">
                     <Daylee />
                   </a>
-                </div>
                 </div>
               </div>
               <div className={styles.Right}>
@@ -96,6 +95,7 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
+                  <div className={styles.Overlay}></div>
                   <a href="https://billmate.io/" target="_blank">
                     <div className={styles.LogoContainer}>
                       <img
@@ -130,6 +130,7 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
+                  <div className={styles.Overlay}></div>
                   <a
                     href="https://chilucdiep.github.io/ShopifyChallenge/"
                     target="_blank"
