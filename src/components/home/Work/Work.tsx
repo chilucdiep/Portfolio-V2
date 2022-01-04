@@ -5,6 +5,8 @@ import styles from "./Work.module.scss";
 import Button from "../../Global/Button";
 import BillmateLogo from "../../../images/BillmateLogo.svg";
 import PortfolioV1Logo from "../../../images/PortfolioV1Logo.svg";
+import GreyGithubIcon from "../../../images/GreyGithubIcon.png";
+import FigmaIcon from "../../../images/FigmaIcon.png";
 import { ARROW_ICON } from "../../Global/Icons";
 import Daylee from "../../Daylee";
 import Billmate from "../../Billmate";
@@ -71,7 +73,22 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                  <div className={styles.Overlay}></div>
+                  <div className={styles.Overlay}>
+                    <a
+                      href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
+                      target="_blank"
+                      className={styles.OverlayLinks}
+                    >
+                      <img src={FigmaIcon} alt="Figma Icon" />
+                    </a>
+                    <a
+                      href="https://github.com/Daylee-Digital-Journal/daylee"
+                      target="_blank"
+                      className={styles.OverlayLinks}
+                    >
+                      <img src={GreyGithubIcon} alt="Github Icon" />
+                    </a>
+                  </div>
                   <a href="https://daylee-web.herokuapp.com/" target="_blank">
                     <Daylee />
                   </a>
@@ -95,7 +112,6 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                  <div className={styles.Overlay}></div>
                   <a href="https://billmate.io/" target="_blank">
                     <div className={styles.LogoContainer}>
                       <img
@@ -130,8 +146,22 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                  <div className={styles.Overlay}></div>
-                  <a
+                <div className={styles.Overlay}>
+                    <a
+                      href="https://www.figma.com/file/CMtheWfmjj548Cy4r4XldC/The-Shoppies?node-id=0%3A1"
+                      target="_blank"
+                      className={styles.OverlayLinks}
+                    >
+                      <img src={FigmaIcon} alt="Figma Icon" />
+                    </a>
+                    <a
+                      href="https://github.com/chilucdiep/ShopifyChallenge"
+                      target="_blank"
+                      className={styles.OverlayLinks}
+                    >
+                      <img src={GreyGithubIcon} alt="Github Icon" />
+                    </a>
+                  </div>                  <a
                     href="https://chilucdiep.github.io/ShopifyChallenge/"
                     target="_blank"
                   >
