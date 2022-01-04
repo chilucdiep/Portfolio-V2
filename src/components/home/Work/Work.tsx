@@ -106,7 +106,16 @@ export default function Work() {
                     development. I also built various main features of the web
                     app.
                   </p>
-                  <p>TypeScript, React, Redux-Saga, Next.js, Scss, Figma</p>
+                  <p>
+                    TypeScript, React, Redux-Saga, Next.js, Scss,
+                    <a
+                      href="https://www.figma.com/file/q8BOtTTTh0S2G39iZ35Db9/Billmate?node-id=8%3A0"
+                      target="_blank"
+                      style={{ color: "#6773FF" }}
+                    >
+                      <strong> Figma</strong>
+                    </a>
+                  </p>
                   <a href="https://billmate.io/" target="_blank">
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
@@ -146,7 +155,7 @@ export default function Work() {
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                <div className={styles.Overlay}>
+                  <div className={styles.Overlay}>
                     <a
                       href="https://www.figma.com/file/CMtheWfmjj548Cy4r4XldC/The-Shoppies?node-id=0%3A1"
                       target="_blank"
@@ -161,7 +170,8 @@ export default function Work() {
                     >
                       <img src={GreyGithubIcon} alt="Github Icon" />
                     </a>
-                  </div>                  <a
+                  </div>{" "}
+                  <a
                     href="https://chilucdiep.github.io/ShopifyChallenge/"
                     target="_blank"
                   >
