@@ -7,7 +7,6 @@ import LinkedinIcon from "../../images/LinkedinIcon.png";
 import { MAIL_ICON } from "../Global/Icons";
 
 export default function Navbar() {
-  console.log(window.location.pathname)
   return (
     <div className={styles.Navbar}>
       <Link to="/">
