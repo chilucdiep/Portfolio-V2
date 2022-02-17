@@ -160,10 +160,11 @@
       svg {
         overflow: visible;
         width: 330px;
-        height: fit-content;
+        
 
         @media screen and (min-width: 700px) {
           width: 400px;
+          height: fit-content;
         }
 
         @media screen and (min-width: 1000px) {
@@ -220,6 +221,19 @@
           }
         }
 
+        .SpaceCard {
+          transform-origin: center;
+          transform-box: fill-box;
+          transform: rotateZ(-19deg) translate(20px, -35px);
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+          .SpaceCard {
+            transform: rotateZ(-15deg) translate(25px, -35px);
+          }
+        }
+
         .Guy {
           transform-origin: center;
           transform-box: fill-box;
@@ -249,10 +263,10 @@
 
       .PortfolioV1Logo {
         position: absolute;
-        top: 41%;
+        top: 42%;
         left: 37.5%;
         transform: translate(-37.5%, -41%);
-        width: 70px;
+        width: 85px;
         pointer-events: none;
 
         @media screen and (min-width: 700px) {

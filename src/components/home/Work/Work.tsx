@@ -11,6 +11,7 @@ import { ARROW_ICON } from "../../Global/Icons";
 import Daylee from "../../Daylee";
 import Billmate from "../../Billmate";
 import Shoppies from "../../Shoppies";
+import Spacestagram from "../../Spacestagram";
 import Portfolio from "../../Portfolio";
 // import { ArrowLeft } from "@material-ui/icons";
 
@@ -138,6 +139,49 @@ export default function Work() {
             <animated.div style={style}>
               <div className={styles.Left}>
                 <div className={styles.WorkText}>
+                  <h3>An astronomy app</h3>
+                  <h2>Spacestagram</h2>
+                  <p>
+                    Spacestagram is a web app where users can browse through
+                    NASA’s pictures, read about their context and information
+                    and save their favorites. For this fun challenge, I fetched
+                    the NASA APOD's API to display the pictures and information.
+                  </p>
+                  <p>TypeScript, React, Scss, Figma</p>
+                  <a
+                    href="https://chilucdiep.github.io/Spacestagram/"
+                    target="_blank"
+                  >
+                    <Button icon={ARROW_ICON} label="View Project" />
+                  </a>
+                </div>
+                <div className={styles.WorkImg}>
+                  <div className={styles.Overlay}>
+                    <a
+                      href="https://www.figma.com/file/dkV2MEJPPmGWdl1vvfaPs4/Spacestagram?node-id=0%3A1"
+                      target="_blank"
+                      className={styles.OverlayLinks}
+                    >
+                      <img src={FigmaIcon} alt="Figma Icon" />
+                    </a>
+                    <a
+                      href="https://github.com/chilucdiep/Spacestagram"
+                      target="_blank"
+                      className={styles.OverlayLinks}
+                    >
+                      <img src={GreyGithubIcon} alt="Github Icon" />
+                    </a>
+                  </div>{" "}
+                  <a
+                    href="https://chilucdiep.github.io/Spacestagram/"
+                    target="_blank"
+                  >
+                    <Spacestagram />
+                  </a>
+                </div>
+              </div>
+              {/* <div className={styles.Left}>
+                <div className={styles.WorkText}>
                   <h3>A movie app</h3>
                   <h2>Shoppies</h2>
                   <p>
@@ -178,7 +222,7 @@ export default function Work() {
                     <Shoppies />
                   </a>
                 </div>
-              </div>
+              </div> */}
               <div className={styles.Right}>
                 <div className={styles.WorkText}>
                   <h3>My first website ever!</h3>

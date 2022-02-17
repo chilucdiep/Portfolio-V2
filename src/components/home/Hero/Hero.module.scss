@@ -1,138 +1,143 @@
 .Hero {
-    margin-top: 5em;
+  margin-top: 5em;
 
-    @media screen and (min-width: 700px) {
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 85vh;
+  @media screen and (min-width: 700px) {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+  }
+
+  .HeroText {
+    margin-right: 1em;
+
+    h1 {
+      margin: 0.1em 0 0.5em;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      border-right: 0.15em solid black;
+      animation: typing 1s steps(10, end), blink 1s infinite;
+      width: 330px;
+      height: 76px;
     }
 
-    .HeroText {
-      margin-right: 1em;
-
+    @media screen and (max-width: 600px) {
       h1 {
-        margin: 0.1em 0 0.5em;
-        overflow: hidden;
-        white-space: nowrap;
-        position: relative;
-        border-right: 0.15em solid black;
-        animation: typing 1s steps(10, end),
-          blink 1s infinite;
-        width: 330px;
-        height: 76px;
-      }
-
-      @keyframes typing {
-        from {
-          width: 0;
-        }
-        to {
-          width: 330px;
-        }
-      }
-
-      @keyframes blink {
-        50% {
-          border-color: transparent;
-        }
-      }
-
-      // .dynamic-txts {
-      //   overflow: hidden;
-      // }
-
-      // .dynamic-txts li {
-      //   font-size: 60px;
-      //   font-weight: 500;
-      //   position: relative;
-      //   top: 0;
-      //   animation: slide 12s steps(4) infinite;
-      // }
-      // @keyframes slide {
-      //   100% {
-      //     top: -360px;
-      //   }
-      // }
-      // .dynamic-txts li h1 {
-      //   position: relative;
-      //   margin: 5px 0;
-      //   line-height: 90px;
-      // }
-      // .dynamic-txts li h1::after {
-      //   content: "";
-      //   position: absolute;
-      //   left: 0;
-      //   height: 100%;
-      //   width: 100%;
-      //   background: #343f4f;
-      //   border-left: 2px solid #fc6d6d;
-      //   animation: typing 3s steps(10) infinite;
-      // }
-      // @keyframes typing {
-      //   40%,
-      //   60% {
-      //     left: calc(100% + 30px);
-      //   }
-      //   100% {
-      //     left: 0;
-      //   }
-      // }
-
-      p {
-        max-width: 450px;
-      }
-
-      span {
-        font-weight: 500;
-      }
-
-      .Button {
-        margin-top: 4em;
-        position: relative;
-
-        .HeroButton {
-          position: relative;
-
-          &::after {
-            content: "";
-            color: white;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            display: block;
-            border-radius: 30px;
-            z-index: 6;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: all 0.3s ease-in;
-          }
-        }
-
-        .HeroButton:hover {
-          &::after {
-            content: "Copy to clipboard";
-            background-color: #6773ff;
-            backdrop-filter: blur(1000px);
-            -webkit-backdrop-filter: blur(1000px);
-            opacity: 0.92;
-            width: 100%;
-          }
-        }
+        width: 285px;
       }
     }
 
-    .HeroImg {
-      width: 50%;
-      max-width: 700px;
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 330px;
+      }
+    }
 
-      @media screen and (max-width: 700px) {
-        margin-top: 3.5em;
-        width: 100%;
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+
+    // .dynamic-txts {
+    //   overflow: hidden;
+    // }
+
+    // .dynamic-txts li {
+    //   font-size: 60px;
+    //   font-weight: 500;
+    //   position: relative;
+    //   top: 0;
+    //   animation: slide 12s steps(4) infinite;
+    // }
+    // @keyframes slide {
+    //   100% {
+    //     top: -360px;
+    //   }
+    // }
+    // .dynamic-txts li h1 {
+    //   position: relative;
+    //   margin: 5px 0;
+    //   line-height: 90px;
+    // }
+    // .dynamic-txts li h1::after {
+    //   content: "";
+    //   position: absolute;
+    //   left: 0;
+    //   height: 100%;
+    //   width: 100%;
+    //   background: #343f4f;
+    //   border-left: 2px solid #fc6d6d;
+    //   animation: typing 3s steps(10) infinite;
+    // }
+    // @keyframes typing {
+    //   40%,
+    //   60% {
+    //     left: calc(100% + 30px);
+    //   }
+    //   100% {
+    //     left: 0;
+    //   }
+    // }
+
+    p {
+      max-width: 450px;
+    }
+
+    span {
+      font-weight: 500;
+    }
+
+    .Button {
+      margin-top: 4em;
+      position: relative;
+
+      .HeroButton {
+        position: relative;
+
+        &::after {
+          content: "";
+          color: white;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          border-radius: 30px;
+          z-index: 6;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: all 0.3s ease-in;
+        }
+      }
+
+      .HeroButton:hover {
+        &::after {
+          content: "Copy to clipboard";
+          background-color: #6773ff;
+          backdrop-filter: blur(1000px);
+          -webkit-backdrop-filter: blur(1000px);
+          opacity: 0.92;
+          width: 100%;
+        }
       }
     }
   }
+
+  .HeroImg {
+    width: 50%;
+    max-width: 700px;
+
+    @media screen and (max-width: 700px) {
+      margin-top: 3.5em;
+      width: 100%;
+    }
+  }
+}
