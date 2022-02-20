@@ -24,25 +24,24 @@ export default function Hero() {
       <div className={styles.HeroText}>
         <h3>Oh hello! 👋</h3>
         <div className={styles.Typewriter}>
-          <h1 className={globals.Title}>I'm Chi-Luc</h1>
-          {/* <ul className="dynamic-txts">
+          <h1 className={globals.Title}>I'm</h1>
+          <ul className={styles.DynamicText}>
               <li>
-                <h1>YouTuber</h1>
+                <h1 className={globals.Title}>Chi-Luc Diep</h1>
               </li>
               <li>
-                <h1>Designer</h1>
+                <h1 className={globals.Title}>a developer</h1>
               </li>
               <li>
-                <h1>Developer</h1>
+                <h1 className={globals.Title}>a UX designer</h1>
               </li>
               <li>
-                <h1>Freelancer</h1>
+                <h1 className={globals.Title}>a freelancer</h1>
               </li>
-            </ul> */}
+            </ul>
         </div>
         <p>
-          A <span>Front-End Developer</span> & <span>UX Designer</span> focused
-          on creating amazing and accessible digital experiences for people️.
+          A <span>Front-End Developer</span> & <span>Product Designer</span> building amazing and accessible digital experiences for people️.
         </p>
         <div className={styles.Button}>
           <Button
