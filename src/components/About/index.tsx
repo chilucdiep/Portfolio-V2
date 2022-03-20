@@ -32,10 +32,10 @@ export default function AboutContainer() {
             Montreal, Canada. I’m currently a UX Designer Intern at Coveo.
           </p>
           <p>
-            From helping businesses manage their sales through Billmate's software, to making
-            scheduling and journaling more accessible with Daylee, I’m always
-            looking for ways to help people by tackling interesting
-            challenges.
+            From helping businesses manage their sales through Billmate's
+            software, to making scheduling and journaling more accessible with
+            Daylee, I’m always looking for ways to help people by tackling
+            interesting challenges.
           </p>
           <p>
             I spent the last 3 years developing my problem solving and design
@@ -145,7 +145,10 @@ export default function AboutContainer() {
       </div>
       <div className={styles.Mission}>
         <h3>What is important to me</h3>
-        <h2>My mission is to <span>empower people</span> through user-centered software</h2>
+        <h2>
+          My mission is to <span>empower people</span> through user-centered
+          software
+        </h2>
         <div className={styles.Description}>
           <div className={styles.Text}>
             <p className={styles.Caption}>
@@ -157,9 +160,10 @@ export default function AboutContainer() {
               <li>
                 <h4>Collaboration & Ownership</h4>
                 <p>
-                  Utilizing different people’s strenghts to create a solution
-                  and have an impact. The feeling of ownership shared among team members promotes a proactive and
-                  committed behavior.
+                  I believe the feeling of ownership shared among team members
+                  promotes a more proactive approach. Working as a team means
+                  utilizing different people’s strenghts to create a solution
+                  and have an impact
                 </p>
               </li>
               <li>
