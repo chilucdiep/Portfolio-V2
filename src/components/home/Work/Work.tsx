@@ -69,7 +69,7 @@ export default function Work() {
                       <strong> Figma</strong>
                     </a>
                   </p>
-                  <a href="https://daylee-web.herokuapp.com/" target="_blank">
+                  <a href="/daylee">
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
                 </div>

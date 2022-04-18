@@ -1,0 +1,16 @@
+.DayleeContainer {
+  .Hero {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    height: 350px;
+    
+    h1 {
+      margin: 0;
+    }
+
+    p {
+      width: 40em;
+    }
+  }
+}
