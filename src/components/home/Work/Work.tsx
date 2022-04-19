@@ -84,13 +84,12 @@ export default function Work() {
                     </a>
                     <a
                       href="https://github.com/Daylee-Digital-Journal/daylee"
-                      target="_blank"
                       className={styles.OverlayLinks}
                     >
                       <img src={GreyGithubIcon} alt="Github Icon" />
                     </a>
                   </div>
-                  <a href="https://daylee-web.herokuapp.com/" target="_blank">
+                  <a href="/daylee">
                     <Daylee />
                   </a>
                 </div>

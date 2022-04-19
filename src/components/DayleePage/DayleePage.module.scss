@@ -29,8 +29,8 @@
   .ProjectContent {
     display: grid;
     grid-template-columns: 35% 1fr;
-    position: relative;
-
+    gap: 1em;
+    
     &::before {
       content: "";
       position: absolute;
@@ -55,13 +55,14 @@
 
     .SideInfo {
       position: sticky;
-      top: 3em;
+      position: -webkit-sticky;
+      top: 1.5em;
       align-self: flex-start;
       margin-bottom: 15em;
 
       h4 {
         color: #6773ff;
-        margin: 2em 0 0.8em;
+        margin: 1.5em 0 0.7em;
       }
 
       li {

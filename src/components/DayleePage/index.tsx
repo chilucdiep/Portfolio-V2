@@ -100,18 +100,18 @@ export default function AboutContainer() {
               I was responsible for designing and building the company website
               including the Home, About, Pricing, Contact pages using React, as
               well as setting-up the internationalization of the website with
-              i18next for better accesibility.
+              i18next for better accessibility.
             </p>
             <h4>Problem</h4>
             <p>
               Students, professionals or anyone trying to organize their life
-              and schedule can currently use analog methods, a multitude of
+              and schedule can currently either use analog methods, a multitude of
               productivity tools that scatter important information, or a very
-              hard software like Notion.
+              hard to learn software like Notion.
             </p>
             <h4>Goal</h4>
             <p>
-              Provide an easy and intuitive way to balancing work, projects,
+              Provide an easy and intuitive way to balance work, projects,
               social life and personal growth in a all-in-one solution.
             </p>
           </div>
