@@ -1,16 +1,77 @@
 .DayleeContainer {
   .Hero {
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    height: 350px;
-    
+    margin: 6em 0;
+
     h1 {
       margin: 0;
     }
 
+    .Caption {
+      max-width: 40em;
+      margin-bottom: 7em;
+    }
+
+    .Mockups {
+      display: grid;
+      grid-template-columns: 52% 1fr;
+      gap: 2em;
+
+      .DayleeDashboardImg {
+        margin-top: 7em;
+      }
+    }
+  }
+
+  .ProjectContent {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+
     p {
-      width: 40em;
+      margin: 0.5em 0;
+    }
+
+    .SideInfo {
+      position: sticky;
+      margin-bottom: 15em;
+
+      h4 {
+        color: #6773ff;
+        margin: 2em 0 0.8em;
+      }
+
+      li {
+        margin-bottom: 1.5em;
+
+        a {
+          display: flex;
+          gap: 0.5em;
+
+          &:hover {
+            opacity: 0.7;
+          }
+
+          img {
+            width: 22px;
+          }
+        }
+      }
+    }
+
+    .MainContent {
+      .ContentSection {
+        margin-bottom: 3.5em;
+        
+        h2 {
+          margin-top: 0;
+        }
+        img {
+            margin: 2em 0;
+        }
+      }
     }
   }
 }
