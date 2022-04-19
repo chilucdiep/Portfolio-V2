@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import GithubIcon from "../../images/GithubIcon.png";
 import OpenLinkIcon from "../../images/OpenLinkIcon.svg";
 import DayleeDashboard from "../../images/DayleeDashboard.svg";
