@@ -27,7 +27,7 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "npm run build && cp ./docs/CNAME ./build/CNAME && rm -rf docs &&  mv build docs",
     "deploy": "gh-pages -d docs",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve ./build -p 3001"
