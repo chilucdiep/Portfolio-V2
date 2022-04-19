@@ -42,8 +42,9 @@ export default function AboutContainer() {
         <section className={styles.SideInfo}>
           <ul>
             <li>
-              <Link
-                to="https://daylee-web.herokuapp.com/"
+              <a
+                href="https://daylee-web.herokuapp.com/"
+                rel="noreferrer"
                 target="_blank"
                 className={styles.Link}
               >
@@ -53,11 +54,12 @@ export default function AboutContainer() {
                   className={styles.NavIcon}
                 ></img>
                 View live
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="https://github.com/Daylee-Digital-Journal/daylee"
+              <a
+                href="https://github.com/Daylee-Digital-Journal/daylee"
+                rel="noreferrer"
                 target="_blank"
                 className={styles.Link}
               >
@@ -68,7 +70,7 @@ export default function AboutContainer() {
                   className={styles.NavIcon}
                 ></img>
                 View github
-              </Link>
+              </a>
             </li>
           </ul>
           <div>
