@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.3fc0f1f1.chunk.css",
-    "main.js": "./static/js/main.e09de950.chunk.js",
-    "main.js.map": "./static/js/main.e09de950.chunk.js.map",
+    "main.js": "./static/js/main.3274dc59.chunk.js",
+    "main.js.map": "./static/js/main.3274dc59.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c43fb023.js",
     "runtime-main.js.map": "./static/js/runtime-main.c43fb023.js.map",
     "static/js/2.3560da94.chunk.js": "./static/js/2.3560da94.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/AboutImg.20072681.png": "./static/media/AboutImg.20072681.png",
     "static/media/Billmate.b998bcf9.svg": "./static/media/Billmate.b998bcf9.svg",
     "static/media/BillmateLogo.8bed7ea7.svg": "./static/media/BillmateLogo.8bed7ea7.svg",
-    "static/media/BillmateThumbnail.42f87216.svg": "./static/media/BillmateThumbnail.42f87216.svg",
+    "static/media/BillmateThumbnail.82d8163b.svg": "./static/media/BillmateThumbnail.82d8163b.svg",
     "static/media/ColoredByte.9271bfa2.svg": "./static/media/ColoredByte.9271bfa2.svg",
     "static/media/Coveo.3aafb89f.svg": "./static/media/Coveo.3aafb89f.svg",
     "static/media/DayleeDashboard.2d07be8d.svg": "./static/media/DayleeDashboard.2d07be8d.svg",
@@ -30,7 +30,7 @@
     "static/media/PomodoroCode.c20e5cce.svg": "./static/media/PomodoroCode.c20e5cce.svg",
     "static/media/PortfolioV1Logo.8b31a628.svg": "./static/media/PortfolioV1Logo.8b31a628.svg",
     "static/media/Pratt.1e2e305a.svg": "./static/media/Pratt.1e2e305a.svg",
-    "static/media/SpacestagramThumbnail.dc7f4d3b.svg": "./static/media/SpacestagramThumbnail.dc7f4d3b.svg",
+    "static/media/SpacestagramThumbnail.17300aa4.svg": "./static/media/SpacestagramThumbnail.17300aa4.svg",
     "static/media/Todo.e7bf6893.svg": "./static/media/Todo.e7bf6893.svg",
     "static/media/TodoCode.f9418c3c.svg": "./static/media/TodoCode.f9418c3c.svg",
     "static/media/TypoElement.ccb8edd5.svg": "./static/media/TypoElement.ccb8edd5.svg",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.c43fb023.js",
     "static/js/2.3560da94.chunk.js",
     "static/css/main.3fc0f1f1.chunk.css",
-    "static/js/main.e09de950.chunk.js"
+    "static/js/main.3274dc59.chunk.js"
   ]
 }
