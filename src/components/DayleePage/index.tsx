@@ -99,10 +99,10 @@ export default function AboutContainer() {
           <div className={styles.ContentSection}>
             <h2>Project Brief</h2>
             <p>
-              I was responsible for designing and building the company website
-              including the Home, About, Pricing, Contact pages using React, as
-              well as setting-up the internationalization of the website with
-              i18next for better accessibility.
+              I was responsible for designing and building the Daylee website
+              and web app using React. This includes building a landing page and
+              a dashboard with multiple productivity tools such as a pomodoro
+              timer, habit tracker, to-do lists, and more.
             </p>
             <h4>Problem</h4>
             <p>
@@ -186,10 +186,10 @@ export default function AboutContainer() {
           <div className={styles.ContentSection}>
             <h2>Other projects</h2>
             <div className={styles.FeaturesGrid}>
-              <Link to="/billmate">
+              <Link to="https://billmate.io/">
                 <img src={BillmateThumbnail} alt="Billmate Thumbnail" />
               </Link>
-              <Link to="/spacestagram">
+              <Link to="https://chilucdiep.github.io/Spacestagram/">
                 <img src={SpacestagramThumbnail} alt="Spacestagram Thumbnail" />
               </Link>
             </div>
