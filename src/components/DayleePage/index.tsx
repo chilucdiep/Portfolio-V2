@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
 
 import GithubIcon from "../../images/GithubIcon.png";
+import OpenLinkIcon from "../../images/OpenLinkIcon.svg";
 import DayleeDashboard from "../../images/DayleeDashboard.svg";
 import DayleeLanding from "../../images/DayleeLanding.svg";
 import DesignSystem from "../../images/DesignSystem.svg";
+import TypoReturn from "../../images/TypoReturn.svg";
+import TypoProps from "../../images/TypoProps.svg";
+import TypoElement from "../../images/TypoElement.svg";
+import TypoVariants from "../../images/TypoVariants.svg";
+import PomodoroCode from "../../images/PomodoroCode.svg";
+import Pomodoro from "../../images/Pomodoro.svg";
+import TodoCode from "../../images/TodoCode.svg";
+import Todo from "../../images/Todo.svg";
 
 import styles from "./DayleePage.module.scss";
 import globals from "../../App.module.scss";
@@ -31,21 +40,29 @@ export default function AboutContainer() {
         <section className={styles.SideInfo}>
           <ul>
             <li>
-              <Link to="/about" className={styles.Link}>
+              <Link
+                to="https://daylee-web.herokuapp.com/"
+                target="_blank"
+                className={styles.Link}
+              >
                 <img
-                  src={GithubIcon}
-                  alt="Github"
+                  src={OpenLinkIcon}
+                  alt="OpenLinkIcon"
                   className={styles.NavIcon}
                 ></img>
                 View live
               </Link>
             </li>
             <li>
-              <Link to="/about">
+              <Link
+                to="https://github.com/Daylee-Digital-Journal/daylee"
+                target="_blank"
+                className={styles.Link}
+              >
                 {" "}
                 <img
                   src={GithubIcon}
-                  alt="Github"
+                  alt="GithubIcon"
                   className={styles.NavIcon}
                 ></img>
                 View github
@@ -112,7 +129,56 @@ export default function AboutContainer() {
               Here is a simple example of a flexible, re-usable, easy to use
               component of the design system I implemented.
             </p>
+            <h4>Typography Component</h4>
+            <img
+              src={TypoReturn}
+              alt="Typo Return"
+              className={styles.TypoReturn}
+            />
+            <div className={styles.TypoGrid}>
+              <div>
+                <p>Takes in props</p>
+                <img src={TypoProps} alt="Typo Props" />
+              </div>
+              <div>
+                <p>To define element type</p>
+                <img src={TypoElement} alt="Typo Element" />
+              </div>
+              <div>
+                <p>And the variants & styling</p>
+                <img src={TypoVariants} alt="Typo Variants" />
+              </div>
+            </div>
           </div>
+          <div className={styles.ContentSection}>
+            <h2>Some cool features</h2>
+            <h4>Pomodoro timer</h4>
+            <p>
+              The pomodoro timer is a time manaagement method that promotes
+              focus time with its 25 minutes work interval followed by a 5
+              minutes break. In addition of starting and pausing the timer, this
+              feature also keeps track of the number of cycles/rounds completed
+              paired with a goal of rounds to achieve.
+            </p>
+            <div className={styles.FeaturesGrid}>
+              <img src={PomodoroCode} alt="Pomodoro Code" />
+              <img src={Pomodoro} alt="Pomodoro" />
+            </div>
+            <h4>To-do list</h4>
+            <p>
+              The to-do list allows the user to plan their daily tasks with the
+              option to reflect on the day for gratitude practice or
+              introspection. This feature was implemented with the useRef hook
+              to allow the user the option to add a to-do by pressing the
+              “Enter” key. This gives the component a seemless user experience.
+            </p>
+            <div className={styles.FeaturesGrid}>
+              <img src={TodoCode} alt="Todo Code" />
+              <img src={Todo} alt="Todo" />
+            </div>
+          </div>
+          <h2>Lessons learned & next steps</h2>
+          <p>Section incoming... Since project is still on going :D</p>
         </section>
       </section>
     </section>
