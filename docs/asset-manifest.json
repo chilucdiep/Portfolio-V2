@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.8f2a6447.chunk.css",
-    "main.js": "./static/js/main.60aa7714.chunk.js",
-    "main.js.map": "./static/js/main.60aa7714.chunk.js.map",
+    "main.css": "./static/css/main.3fc0f1f1.chunk.css",
+    "main.js": "./static/js/main.63d34bdd.chunk.js",
+    "main.js.map": "./static/js/main.63d34bdd.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c43fb023.js",
     "runtime-main.js.map": "./static/js/runtime-main.c43fb023.js.map",
-    "static/js/2.86ea9de0.chunk.js": "./static/js/2.86ea9de0.chunk.js",
-    "static/js/2.86ea9de0.chunk.js.map": "./static/js/2.86ea9de0.chunk.js.map",
+    "static/js/2.e9b6220c.chunk.js": "./static/js/2.e9b6220c.chunk.js",
+    "static/js/2.e9b6220c.chunk.js.map": "./static/js/2.e9b6220c.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.8f2a6447.chunk.css.map": "./static/css/main.8f2a6447.chunk.css.map",
-    "static/js/2.86ea9de0.chunk.js.LICENSE.txt": "./static/js/2.86ea9de0.chunk.js.LICENSE.txt",
+    "static/css/main.3fc0f1f1.chunk.css.map": "./static/css/main.3fc0f1f1.chunk.css.map",
+    "static/js/2.e9b6220c.chunk.js.LICENSE.txt": "./static/js/2.e9b6220c.chunk.js.LICENSE.txt",
     "static/media/AboutImg.20072681.png": "./static/media/AboutImg.20072681.png",
     "static/media/Billmate.b998bcf9.svg": "./static/media/Billmate.b998bcf9.svg",
     "static/media/BillmateLogo.8bed7ea7.svg": "./static/media/BillmateLogo.8bed7ea7.svg",
+    "static/media/BillmateThumbnail.42f87216.svg": "./static/media/BillmateThumbnail.42f87216.svg",
     "static/media/ColoredByte.9271bfa2.svg": "./static/media/ColoredByte.9271bfa2.svg",
     "static/media/Coveo.3aafb89f.svg": "./static/media/Coveo.3aafb89f.svg",
     "static/media/DayleeDashboard.2d07be8d.svg": "./static/media/DayleeDashboard.2d07be8d.svg",
@@ -29,6 +30,7 @@
     "static/media/PomodoroCode.c20e5cce.svg": "./static/media/PomodoroCode.c20e5cce.svg",
     "static/media/PortfolioV1Logo.8b31a628.svg": "./static/media/PortfolioV1Logo.8b31a628.svg",
     "static/media/Pratt.1e2e305a.svg": "./static/media/Pratt.1e2e305a.svg",
+    "static/media/SpacestagramThumbnail.dc7f4d3b.svg": "./static/media/SpacestagramThumbnail.dc7f4d3b.svg",
     "static/media/Todo.e7bf6893.svg": "./static/media/Todo.e7bf6893.svg",
     "static/media/TodoCode.f9418c3c.svg": "./static/media/TodoCode.f9418c3c.svg",
     "static/media/TypoElement.ccb8edd5.svg": "./static/media/TypoElement.ccb8edd5.svg",
@@ -39,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c43fb023.js",
-    "static/js/2.86ea9de0.chunk.js",
-    "static/css/main.8f2a6447.chunk.css",
-    "static/js/main.60aa7714.chunk.js"
+    "static/js/2.e9b6220c.chunk.js",
+    "static/css/main.3fc0f1f1.chunk.css",
+    "static/js/main.63d34bdd.chunk.js"
   ]
 }
