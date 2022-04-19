@@ -1,11 +1,11 @@
-<svg width="473" height="383" viewBox="0 0 473 383" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="Spacestagram">
-<rect id="Rectangle 43" x="22.4962" width="450" height="350" rx="5" fill="#18181A"/>
+<svg width="475" height="383" viewBox="0 0 475 383" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="SpacestagramThumbnail">
+<rect id="Rectangle 43" x="24.4962" width="450" height="350" rx="5" fill="#18181A"/>
 <rect id="Card" x="0.875854" y="271.037" width="169.32" height="116.545" transform="rotate(-17.1011 0.875854 271.037)" fill="url(#pattern0)"/>
-<rect id="Rectangle 44" x="22.0001" y="350" width="450" height="26" fill="#F6F7FE"/>
+<rect id="Rectangle 44" x="24.0001" y="350" width="450" height="26" fill="#F6F7FE"/>
 <g id="RocketLogo">
-<circle id="Ellipse 1" cx="247" cy="175" r="55" fill="#357CF2"/>
-<rect id="rocket 1" x="213.154" y="141.154" width="71.9231" height="71.9231" fill="url(#pattern1)"/>
+<circle id="Ellipse 1" cx="249" cy="175" r="55" fill="#357CF2"/>
+<rect id="rocket 1" x="215.154" y="141.154" width="71.9231" height="71.9231" fill="url(#pattern1)"/>
 </g>
 </g>
 <defs>

@@ -1,11 +1,11 @@
-<svg width="507" height="410" viewBox="0 0 507 410" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="Billmate">
+<svg width="500" height="406" viewBox="0 0 500 406" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="BillmateThumbnail">
 <rect id="Rectangle 43" width="450" height="350" rx="5" fill="#E6EFF8"/>
 <rect id="logo" x="154" y="103" width="143" height="143" fill="url(#pattern0)"/>
-<rect id="down" x="201" y="288.312" width="229.54" height="131.92" rx="8" transform="rotate(-23.1691 201 288.312)" fill="url(#pattern1)"/>
-<rect id="Rectangle 44" x="1" y="350" width="450" height="60" fill="#F6F7FE"/>
+<rect id="down" x="199.931" y="262.146" width="229.54" height="131.92" rx="8" transform="rotate(-16.0533 199.931 262.146)" fill="url(#pattern1)"/>
+<rect id="Rectangle 44" x="1" y="350" width="450" height="39" fill="#F6F7FE"/>
 <g id="up" filter="url(#filter0_d_4_125)">
-<rect x="345.232" y="273.325" width="90.4999" height="90.4999" rx="8" transform="rotate(-22.6624 345.232 273.325)" fill="url(#pattern2)"/>
+<rect x="344.908" y="265.141" width="90.4999" height="90.4999" rx="8" transform="rotate(-15.5466 344.908 265.141)" fill="url(#pattern2)"/>
 </g>
 </g>
 <defs>
@@ -15,7 +15,7 @@
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_4_125" transform="translate(-0.000848877) scale(0.000573565 0.000998004)"/>
 </pattern>
-<filter id="filter0_d_4_125" x="312.695" y="215.918" width="193.457" height="193.457" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_4_125" x="311.758" y="217.735" width="187.746" height="187.746" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="5" dy="15"/>
