@@ -188,12 +188,12 @@ export default function AboutContainer() {
           <div className={styles.ContentSection}>
             <h2>Other projects</h2>
             <div className={styles.FeaturesGrid}>
-              <Link to="https://billmate.io/">
+              <a href="https://daylee-web.herokuapp.com/">
                 <img src={BillmateThumbnail} alt="Billmate Thumbnail" />
-              </Link>
-              <Link to="https://chilucdiep.github.io/Spacestagram/">
+              </a>
+              <a href="https://chilucdiep.github.io/Spacestagram/">
                 <img src={SpacestagramThumbnail} alt="Spacestagram Thumbnail" />
-              </Link>
+              </a>
             </div>
           </div>
         </section>
