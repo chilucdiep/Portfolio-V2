@@ -13,6 +13,8 @@ import PomodoroCode from "../../images/PomodoroCode.svg";
 import Pomodoro from "../../images/Pomodoro.svg";
 import TodoCode from "../../images/TodoCode.svg";
 import Todo from "../../images/Todo.svg";
+import BillmateThumbnail from "../../images/BillmateThumbnail.svg";
+import SpacestagramThumbnail from "../../images/SpacestagramThumbnail.svg";
 
 import styles from "./DayleePage.module.scss";
 import globals from "../../App.module.scss";
@@ -105,9 +107,9 @@ export default function AboutContainer() {
             <h4>Problem</h4>
             <p>
               Students, professionals or anyone trying to organize their life
-              and schedule can currently either use analog methods, a multitude of
-              productivity tools that scatter important information, or a very
-              hard to learn software like Notion.
+              and schedule can currently either use analog methods, a multitude
+              of productivity tools that scatter important information, or a
+              very hard to learn software like Notion.
             </p>
             <h4>Goal</h4>
             <p>
@@ -177,8 +179,21 @@ export default function AboutContainer() {
               <img src={Todo} alt="Todo" />
             </div>
           </div>
-          <h2>Lessons learned & next steps</h2>
-          <p>Section incoming... Since project is still on going :D</p>
+          <div className={styles.ContentSection}>
+            <h2>Lessons learned & next steps</h2>
+            <p>Section incoming... Since project is still on going :D</p>
+          </div>
+          <div className={styles.ContentSection}>
+            <h2>Other projects</h2>
+            <div className={styles.FeaturesGrid}>
+              <Link to="/billmate">
+                <img src={BillmateThumbnail} alt="Billmate Thumbnail" />
+              </Link>
+              <Link to="/spacestagram">
+                <img src={SpacestagramThumbnail} alt="Spacestagram Thumbnail" />
+              </Link>
+            </div>
+          </div>
         </section>
       </section>
     </section>
