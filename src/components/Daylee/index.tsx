@@ -28,7 +28,7 @@ export default function Daylee() {
             width="118.471"
             height="189.049"
             transform="rotate(-20.3755 0 204.248)"
-            fill="url(#pattern0)"
+            fill="url(#pomodoropattern)"
           />
           <path
             id="D"
@@ -46,7 +46,7 @@ export default function Daylee() {
         </g>
         <defs>
           <pattern
-            id="pattern0"
+            id="pomodoropattern"
             patternContentUnits="objectBoundingBox"
             width="1"
             height="1"

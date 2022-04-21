@@ -28,7 +28,7 @@ export default function Spacestagram() {
             width="169.32"
             height="126.545"
             transform="rotate(-14.5534 0.341919 271.709)"
-            fill="url(#pattern0)"
+            fill="url(#details)"
           />
           <rect
             id="Rectangle 44"
@@ -46,13 +46,13 @@ export default function Spacestagram() {
               y="141.154"
               width="71.9231"
               height="71.9231"
-              fill="url(#pattern1)"
+              fill="url(#rocket)"
             />
           </g>
         </g>
         <defs>
           <pattern
-            id="pattern0"
+            id="details"
             patternContentUnits="objectBoundingBox"
             width="1"
             height="1"
@@ -63,7 +63,7 @@ export default function Spacestagram() {
             />
           </pattern>
           <pattern
-            id="pattern1"
+            id="rocket"
             patternContentUnits="objectBoundingBox"
             width="1"
             height="1"

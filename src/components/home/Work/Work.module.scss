@@ -68,6 +68,7 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 5em;
+        gap: 3em;
       }
 
       .Right {
@@ -75,6 +76,8 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: row-reverse;
+        margin-bottom: 5em;
+        gap: 3em;
       }
     }
 
@@ -84,7 +87,6 @@
 
     p {
       max-width: 540px;
-      margin-right: 3em;
     }
 
     .WorkButton {
@@ -113,7 +115,6 @@
       position: relative;
       width: fit-content;
       height: fit-content;
-      margin-bottom: 3em;
 
       .Overlay {
         position: absolute;
@@ -129,23 +130,24 @@
         .OverlayLinks {
           width: 45px;
           height: 45px;
-          background-color: rgba(255, 255, 255, 0.15);
+          background-color: rgba(0, 0, 0, 0.25);
+          border: 1px solid rgb(255, 255, 255, 0.1);
           border-radius: 50%;
           display: flex;
           justify-content: center;
           align-items: center;
-          transition: all .2s ease-in-out;
+          transition: all 0.2s ease-in-out;
 
           img {
             width: 25px;
-            transition: all .2s ease-in-out;
+            transition: all 0.2s ease-in-out;
           }
 
           &:hover {
             transform: scale(1.1);
 
             img {
-              transform: scale(.8);
+              transform: scale(0.8);
             }
           }
         }
@@ -160,7 +162,6 @@
       svg {
         overflow: visible;
         width: 330px;
-        
 
         @media screen and (min-width: 700px) {
           width: 400px;
@@ -208,6 +209,18 @@
           }
         }
 
+        .VroomPage {
+          transform-origin: center;
+          transform-box: fill-box;
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+          .VroomPage {
+            transform: rotateZ(-8deg) translate(5px, -10px);
+          }
+        }
+
         .Trophy {
           transform-origin: center;
           transform-box: fill-box;
@@ -231,6 +244,19 @@
         &:hover {
           .SpaceCard {
             transform: rotateZ(-15deg) translate(25px, -35px);
+          }
+        }
+
+        .BillmateLeft {
+          transform-origin: center;
+          transform-box: fill-box;
+          transform: rotateZ(10deg) translate(-10px, 15px);
+          transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+          .BillmateLeft {
+            transform: rotateZ(20deg) translate(-15px, 20px);
           }
         }
 

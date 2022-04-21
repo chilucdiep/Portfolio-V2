@@ -10,9 +10,11 @@ import FigmaIcon from "../../../images/FigmaIcon.png";
 import { ARROW_ICON } from "../../Global/Icons";
 import Daylee from "../../Daylee";
 import Billmate from "../../Billmate";
+import BillmateLeft from "../../BillmateLeft";
 import Shoppies from "../../Shoppies";
 import Spacestagram from "../../Spacestagram";
 import Portfolio from "../../Portfolio";
+import Vroom from "../../Vroom";
 // import { ArrowLeft } from "@material-ui/icons";
 
 export default function Work() {
@@ -65,6 +67,7 @@ export default function Work() {
                       href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
                       target="_blank"
                       style={{ color: "#6773FF" }}
+                      rel="noreferrer"
                     >
                       <strong> Figma</strong>
                     </a>
@@ -79,6 +82,7 @@ export default function Work() {
                       href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
                       target="_blank"
                       className={styles.OverlayLinks}
+                      rel="noreferrer"
                     >
                       <img src={FigmaIcon} alt="Figma Icon" />
                     </a>
@@ -95,6 +99,46 @@ export default function Work() {
                 </div>
               </div>
               <div className={styles.Right}>
+                <div className={styles.WorkText}>
+                  <h3>A vehicle rental company</h3>
+                  <h2>Vroom 2</h2>
+                  <p>
+                    Vroom2 is a Slingshot vehicle rental company with the
+                    mission to provide an unique and exhilarating experience to
+                    their customers. As a freelancer, I was responsible for
+                    defining business requirements & brand strategy, translating
+                    it in design and implementing it for deployment.
+                  </p>
+                  <p>
+                    TypeScript, React, Next.js, Scss,
+                    <a
+                      href="https://www.figma.com/file/VvflnQx7wd5uHKjcEVxGSs/Vroom-2?node-id=779%3A33"
+                      target="_blank"
+                      style={{ color: "#6773FF" }}
+                      rel="noreferrer"
+                    >
+                      <strong> Figma</strong>
+                    </a>
+                  </p>
+                  <a
+                    href="http://vroom2.ca/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button icon={ARROW_ICON} label="View Project" />
+                  </a>
+                </div>
+                <div className={styles.WorkImg}>
+                  <a
+                    href="http://vroom2.ca/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Vroom />
+                  </a>
+                </div>
+              </div>
+              {/* <div className={styles.Right}>
                 <div className={styles.WorkText}>
                   <h3>A client management software</h3>
                   <h2>Billmate</h2>
@@ -132,10 +176,7 @@ export default function Work() {
                     </div>
                   </a>
                 </div>
-              </div>
-            </animated.div>
-          ) : (
-            <animated.div style={style}>
+              </div> */}
               <div className={styles.Left}>
                 <div className={styles.WorkText}>
                   <h3>An astronomy app</h3>
@@ -150,6 +191,7 @@ export default function Work() {
                   <a
                     href="https://chilucdiep.github.io/Spacestagram/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
@@ -160,6 +202,7 @@ export default function Work() {
                       href="https://www.figma.com/file/dkV2MEJPPmGWdl1vvfaPs4/Spacestagram?node-id=0%3A1"
                       target="_blank"
                       className={styles.OverlayLinks}
+                      rel="noreferrer"
                     >
                       <img src={FigmaIcon} alt="Figma Icon" />
                     </a>
@@ -167,15 +210,71 @@ export default function Work() {
                       href="https://github.com/chilucdiep/Spacestagram"
                       target="_blank"
                       className={styles.OverlayLinks}
+                      rel="noreferrer"
                     >
                       <img src={GreyGithubIcon} alt="Github Icon" />
                     </a>
-                  </div>{" "}
+                  </div>
                   <a
                     href="https://chilucdiep.github.io/Spacestagram/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Spacestagram />
+                  </a>
+                </div>
+              </div>
+            </animated.div>
+          ) : (
+            <animated.div style={style}>
+              <div className={styles.Left}>
+                <div className={styles.WorkText}>
+                  <h3>A client management software</h3>
+                  <h2>Billmate</h2>
+                  <p>
+                    Billmate is an all-in-one platform that helps small
+                    businesses manage their clients and operate their day-to-day
+                    activities. As part of my internship, I created the entire
+                    company website, from wireframing and mockups to
+                    development. I also built various main features of the web
+                    app.
+                  </p>
+                  <p>
+                    TypeScript, React, Redux-Saga, Next.js, Scss,
+                    <a
+                      href="https://www.figma.com/file/q8BOtTTTh0S2G39iZ35Db9/Billmate?node-id=8%3A0"
+                      target="_blank"
+                      style={{ color: "#6773FF" }}
+                      rel="noreferrer"
+                    >
+                      <strong> Figma</strong>
+                    </a>
+                  </p>
+                  <a
+                    href="https://billmate.io/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button icon={ARROW_ICON} label="View Project" />
+                  </a>
+                </div>
+                <div className={styles.WorkImg}>
+                  <div className={styles.Overlay}>
+                    <a
+                      href="https://www.figma.com/file/q8BOtTTTh0S2G39iZ35Db9/Billmate?node-id=8%3A0"
+                      target="_blank"
+                      className={styles.OverlayLinks}
+                      rel="noreferrer"
+                    >
+                      <img src={FigmaIcon} alt="Figma Icon" />
+                    </a>
+                  </div>
+                  <a
+                    href="https://billmate.io/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <BillmateLeft />
                   </a>
                 </div>
               </div>
@@ -236,6 +335,7 @@ export default function Work() {
                   <a
                     href="https://chilucdiep.github.io/Portfolio/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
@@ -244,6 +344,7 @@ export default function Work() {
                   <a
                     href="https://chilucdiep.github.io/Portfolio/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className={styles.LogoContainer}>
                       <img
