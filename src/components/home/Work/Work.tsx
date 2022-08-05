@@ -27,8 +27,6 @@ export default function Work() {
   const FeaturedSelectedClasses = featuredWork ? styles.Selected : null;
   const OtherSelectedClasses = !featuredWork ? styles.Selected : null;
 
-  console.log(featuredWork);
-
   return (
     <div className={styles.WorkContainer} id="work">
       <h1>Selected Work</h1>
