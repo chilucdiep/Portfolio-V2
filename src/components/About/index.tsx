@@ -8,6 +8,7 @@ import ColoredByte from "../../images/ColoredByte.svg";
 import Pratt from "../../images/Pratt.svg";
 import Wave from "../../images/Wave.svg";
 import MissionImg from "../../images/MissionImg.png";
+import { TechnologiesList, ToolsList, SkillsList } from  './SkillsList'
 
 export default function AboutContainer() {
   return (
@@ -28,17 +29,15 @@ export default function AboutContainer() {
           <h2>My journey in tech</h2>
           <p>
             My name is Chi-Luc and I am a Software Developer based in 📍
-            Montreal, Canada. I’m currently a UX Designer Intern at Coveo.
+            Montreal, Canada. I’m currently working as a Frontend Developer at Poka.
           </p>
           <p>
-            From helping businesses manage their sales through Billmate's
-            software, to making scheduling and journaling more accessible with
-            Daylee, I’m always looking for ways to help people by tackling
-            interesting challenges.
+            From delivering insightful usage analytics to Coveo's clients as a UX Designer, 
+            to impacting directly Poka's business metrics as a Frontend Developer working on the pricing plans & web admin, 
+            I’m always looking for ways to improve the user experience by tackling interesting challenges.
           </p>
           <p>
-            I spent the last 3 years developing my problem solving and design
-            skills as a Mechanical Engineering Student at Polytechnique
+            I spent 3 years as a Electrical/Mechanical Engineering Student at Polytechnique
             Montreal. Driven by curiosity, I discovered the magic of web
             development and went on the path of self-study with the help of
             amazing mentors and online ressources.
@@ -50,87 +49,9 @@ export default function AboutContainer() {
         </div>
       </div>
       <div className={styles.SkillGrid}>
-        <div className={styles.Technologies}>
-          <h4>Technologies</h4>
-          <ul>
-            <li>
-              <p>HTML</p>
-            </li>
-            <li>
-              <p>CSS/Scss</p>
-            </li>
-            <li>
-              <p>JavaScript/TypeScript</p>
-            </li>
-            <li>
-              <p>React</p>
-            </li>
-            <li>
-              <p>Redux & Redux-Saga</p>
-            </li>
-            <li>
-              <p>Next.js</p>
-            </li>
-            <li>
-              <p>Material UI</p>
-            </li>
-            <li>
-              <p>Liquid</p>
-            </li>
-          </ul>
-        </div>
-        <div className={styles.Tools}>
-          <h4>Tools</h4>
-          <ul>
-            <li>
-              <p>Figma</p>
-            </li>
-            <li>
-              <p>Adobe XD</p>
-            </li>
-            <li>
-              <p>Git</p>
-            </li>
-            <li>
-              <p>Github</p>
-            </li>
-            <li>
-              <p>VS Code</p>
-            </li>
-            <li>
-              <p>Shopify</p>
-            </li>
-          </ul>
-        </div>
-        <div className={styles.Skills}>
-          <h4>Skills</h4>
-          <ul>
-            <li>
-              <p>Responsive design</p>
-            </li>
-            <li>
-              <p>Clean code & best practices</p>
-            </li>
-            <li>
-              <p>Design systems</p>
-            </li>
-            <li>
-              <p>Algorithms & data structures</p>
-            </li>
-            <li>
-              <p>Accessibility</p>
-            </li>
-            <li>
-              <p>Prototyping</p>
-            </li>
-            <li>
-              <p>Design Thinking</p>
-            </li>
-            <li>
-              <p>Project management</p>
-            </li>
-          </ul>
-        </div>
+        <ListComponent listType='Technologies' />
+        <ListComponent listType='Tools' />
+        <ListComponent listType='Skills' />
       </div>
       <div className={styles.Experience}>
         <h2>I create products for your business needs.</h2>
@@ -188,4 +109,41 @@ export default function AboutContainer() {
       </div>
     </div>
   );
+}
+
+function ListComponent({ listType }: any) {
+  let listMarkup;
+
+  if (listType === 'Technologies') {
+    listMarkup = TechnologiesList?.map(skill => (
+      <li key={skill}>
+        <p>{skill}</p>
+      </li>
+    ))
+  }
+
+  if (listType === 'Tools') {
+    listMarkup = ToolsList?.map(skill => (
+      <li key={skill}>
+        <p>{skill}</p>
+      </li>
+    ))
+  }
+
+  if (listType === 'Skills') {
+    listMarkup = SkillsList?.map(skill => (
+      <li key={skill}>
+        <p>{skill}</p>
+      </li>
+    ))
+  }
+
+  return (
+    <div>
+      <h4>{listType}</h4>
+      <ul>
+      {listMarkup}
+      </ul>
+    </div>
+  )
 }

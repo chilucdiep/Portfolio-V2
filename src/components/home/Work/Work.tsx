@@ -3,15 +3,15 @@ import { useTransition, animated } from "react-spring";
 import styles from "./Work.module.scss";
 
 import Button from "../../Global/Button";
-import BillmateLogo from "../../../images/BillmateLogo.svg";
+// import BillmateLogo from "../../../images/BillmateLogo.svg";
 import PortfolioV1Logo from "../../../images/PortfolioV1Logo.svg";
 import GreyGithubIcon from "../../../images/GreyGithubIcon.png";
 import FigmaIcon from "../../../images/FigmaIcon.png";
 import { ARROW_ICON } from "../../Global/Icons";
 import Daylee from "../../Daylee";
-import Billmate from "../../Billmate";
+// import Billmate from "../../Billmate";
 import BillmateLeft from "../../BillmateLeft";
-import Shoppies from "../../Shoppies";
+// import Shoppies from "../../Shoppies";
 import Spacestagram from "../../Spacestagram";
 import Portfolio from "../../Portfolio";
 import Vroom from "../../Vroom";
@@ -69,7 +69,7 @@ export default function Work() {
                       style={{ color: "#6773FF" }}
                       rel="noreferrer"
                     >
-                      <strong> Figma</strong>
+                      <strong>Figma</strong>
                     </a>
                   </p>
                   <a href="/daylee">
@@ -183,7 +183,7 @@ export default function Work() {
                   <h2>Spacestagram</h2>
                   <p>
                     Spacestagram is a web app where users can browse through
-                    NASA’s pictures, read about their context and information
+                    NASA’s pictures, read about their context/information
                     and save their favorites. For this fun challenge, I fetched
                     the NASA APOD's API to display the pictures and information.
                   </p>
@@ -235,9 +235,9 @@ export default function Work() {
                     Billmate is an all-in-one platform that helps small
                     businesses manage their clients and operate their day-to-day
                     activities. As part of my internship, I created the entire
-                    company website, from wireframing and mockups to
+                    company website, from wireframes & mockups to
                     development. I also built various main features of the web
-                    app.
+                    app, such as CRUD expense tracker.
                   </p>
                   <p>
                     TypeScript, React, Redux-Saga, Next.js, Scss,
@@ -247,7 +247,7 @@ export default function Work() {
                       style={{ color: "#6773FF" }}
                       rel="noreferrer"
                     >
-                      <strong> Figma</strong>
+                      <strong>Figma</strong>
                     </a>
                   </p>
                   <a

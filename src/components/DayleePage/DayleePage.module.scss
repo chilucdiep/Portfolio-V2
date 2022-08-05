@@ -32,20 +32,21 @@
     display: grid;
     grid-template-columns: 35% 1fr;
     gap: 1em;
+    margin-bottom: 3em;
 
     &::before {
       content: "";
       position: absolute;
-      top: -500px;
+      top: -200px;
       left: 50%;
-      transform: translate(-50%);
+      transform: translateX(-50%);
       width: 100vw;
-      height: 120%;
+      height: 570%;
       background: linear-gradient(
         180deg,
         rgba(246, 247, 254, 0) 0%,
         #f6f7fe 8%,
-        #f6f7fe 90%,
+        #f6f7fe 99%,
         rgba(246, 247, 254, 0) 100%
       );
       z-index: -1;
