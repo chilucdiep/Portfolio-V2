@@ -60,7 +60,7 @@ export default function Work() {
                     front-end design. <strong>**Under Construction**</strong>
                   </p>
                   <p>
-                    TypeScript, React, Next.js, Scss,
+                    TypeScript, React, Next.js, Scss,{" "}
                     <a
                       href="https://www.figma.com/file/BH6GRyC4CYVTOO4zrqESCs/Productivity-Board?node-id=0%3A1"
                       target="_blank"

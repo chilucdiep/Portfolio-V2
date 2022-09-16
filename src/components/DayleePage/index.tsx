@@ -100,16 +100,17 @@ export default function AboutContainer() {
             <h2>Project Brief</h2>
             <p>
               I was responsible for designing and building the Daylee website
-              and web app using React. This includes building a landing page and
-              a dashboard with multiple productivity tools such as a pomodoro
-              timer, habit tracker, to-do lists, and more.
+              and web app using React. This includes creating & implementing a
+              design system and building a landing page & dashboard with
+              multiple productivity tools such as a pomodoro timer, habit
+              tracker, to-do lists, and more.
             </p>
             <h4>Problem</h4>
             <p>
-              Students, professionals or anyone trying to organize their life
-              and schedule can currently either use analog methods, a multitude
-              of productivity tools that scatter important information, or a
-              very hard to learn software like Notion.
+              Students & professionals can only organize their life and
+              schedules using either analog methods, a multitude of productivity
+              tools that scatter important information, or a software with a big
+              learning curve like Notion.
             </p>
             <h4>Goal</h4>
             <p>
