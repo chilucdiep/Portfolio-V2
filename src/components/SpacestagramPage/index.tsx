@@ -1,12 +1,14 @@
 import GithubIcon from "../../images/GithubIcon.png";
 import OpenLinkIcon from "../../images/OpenLinkIcon.svg";
 import SpacestagramMockups from "../../images/SpacestagramMockup.svg";
-import PomodoroCode from "../../images/PomodoroCode.svg";
-import Pomodoro from "../../images/Pomodoro.svg";
-import TodoCode from "../../images/TodoCode.svg";
-import Todo from "../../images/Todo.svg";
+import useFetchPicturesImg from "../../images/useFetchPicturesImg.svg";
+import useLocalStorageImg from "../../images/useLocalStorageImg.svg";
+import FeedPageComponentImg from "../../images/FeedPageComponentImg.svg";
+import HomepageSpaceImg from "../../images/HomepageSpaceImg.svg";
+import FeedpageSpaceImg from "../../images/FeedpageSpaceImg.svg";
+import DetailspageSpaceImg from "../../images/DetailspageSpaceImg.svg";
 import BillmateThumbnail from "../../images/BillmateThumbnail.svg";
-import SpacestagramThumbnail from "../../images/SpacestagramThumbnail.svg";
+import DayleeThumbnail from "../../images/DayleeThumbnail.svg";
 
 import styles from "./SpacestagramPage.module.scss";
 import globals from "../../App.module.scss";
@@ -124,8 +126,9 @@ export default function SpacestagramContainer() {
               information.
             </p>
             <div className={styles.FeaturesGrid}>
-              <img src={PomodoroCode} alt="Pomodoro Code" />
-              <img src={Pomodoro} alt="Pomodoro" />
+              <img src={HomepageSpaceImg} alt="Home Page" />
+              <img src={FeedpageSpaceImg} alt="Feed page" />
+              <img src={DetailspageSpaceImg} alt="Details page" />
             </div>
             <h4>Custom hooks</h4>
             <p>
@@ -136,6 +139,10 @@ export default function SpacestagramContainer() {
               favorite pictures to be saved inside of the local storage for a
               better user experience. The hook was mainly implemented to make
               the code cleaner and more scalable when using this functionality.
+            <div className={styles.FeaturesGrid}>
+              <img src={useFetchPicturesImg} alt="Pomodoro Code" />
+              <img src={useLocalStorageImg} alt="Pomodoro" />
+            </div>
             </p>
             <h4>The Feed page component</h4>
             <p>
@@ -145,22 +152,21 @@ export default function SpacestagramContainer() {
               lazy loading functionality for better a app performance.
             </p>
             <div className={styles.FeaturesGrid}>
-              <img src={TodoCode} alt="Todo Code" />
-              <img src={Todo} alt="Todo" />
+              <img src={FeedPageComponentImg} alt="Todo Code" />
             </div>
           </div>
           <div className={styles.ContentSection}>
             <h2>Lessons learned & next steps</h2>
-            <p>Section incoming... Since project is still on going :D</p>
+            <p>Section incoming...</p>
           </div>
           <div className={styles.ContentSection}>
             <h2>Other projects</h2>
             <div className={styles.FeaturesGrid}>
+              <a href="https://github.com/Daylee-Digital-Journal/daylee">
+                <img src={DayleeThumbnail} alt="Daylee Thumbnail" />
+              </a>
               <a href="https://daylee-web.herokuapp.com/">
                 <img src={BillmateThumbnail} alt="Billmate Thumbnail" />
-              </a>
-              <a href="https://chilucdiep.github.io/Spacestagram/">
-                <img src={SpacestagramThumbnail} alt="Spacestagram Thumbnail" />
               </a>
             </div>
           </div>
