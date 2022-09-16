@@ -83,7 +83,7 @@ export default function AboutContainer() {
                   I believe the feeling of ownership shared among team members
                   promotes a more proactive approach. Working as a team means
                   utilizing different people’s strenghts to create a solution
-                  and have an impact
+                  and have an impact.
                 </p>
               </li>
               <li>
@@ -97,7 +97,7 @@ export default function AboutContainer() {
               <li>
                 <h4>Growth Mindset </h4>
                 <p>
-                  Learning is my primary goal. I love trying new things and
+                  Learning is my main focus. I love trying new things and
                   taking on interesting challenges. I also believe that
                   mentorship, feedback and transparency is essential for growth.
                 </p>

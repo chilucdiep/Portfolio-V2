@@ -70,7 +70,7 @@ export default function Work() {
                       <strong>Figma</strong>
                     </a>
                   </p>
-                  <a href="/daylee">
+                  <a href="/daylee" target="_blank" rel="noreferrer">
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
                 </div>
@@ -118,20 +118,12 @@ export default function Work() {
                       <strong> Figma</strong>
                     </a>
                   </p>
-                  <a
-                    href="http://vroom2.ca/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="http://vroom2.ca/" target="_blank" rel="noreferrer">
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
                 </div>
                 <div className={styles.WorkImg}>
-                  <a
-                    href="http://vroom2.ca/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="http://vroom2.ca/" target="_blank" rel="noreferrer">
                     <Vroom />
                   </a>
                 </div>
@@ -181,16 +173,12 @@ export default function Work() {
                   <h2>Spacestagram</h2>
                   <p>
                     Spacestagram is a web app where users can browse through
-                    NASA’s pictures, read about their context/information
-                    and save their favorites. For this fun challenge, I fetched
-                    the NASA APOD's API to display the pictures and information.
+                    NASA’s pictures, read about their context/information and
+                    save their favorites. For this fun challenge, I fetched the
+                    NASA APOD's API to display the pictures and information.
                   </p>
                   <p>TypeScript, React, Scss, Figma</p>
-                  <a
-                    href="https://chilucdiep.github.io/Spacestagram/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="/spacestagram" target="_blank" rel="noreferrer">
                     <Button icon={ARROW_ICON} label="View Project" />
                   </a>
                 </div>
@@ -233,9 +221,9 @@ export default function Work() {
                     Billmate is an all-in-one platform that helps small
                     businesses manage their clients and operate their day-to-day
                     activities. As part of my internship, I created the entire
-                    company website, from wireframes & mockups to
-                    development. I also built various main features of the web
-                    app, such as CRUD expense tracker.
+                    company website, from wireframes & mockups to development. I
+                    also built various main features of the web app, such as
+                    CRUD expense tracker.
                   </p>
                   <p>
                     TypeScript, React, Redux-Saga, Next.js, Scss,

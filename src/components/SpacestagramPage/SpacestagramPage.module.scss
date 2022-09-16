@@ -1,0 +1,139 @@
+.SpacestagramContainer {
+  .Hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 6em 0;
+
+    h1 {
+      margin: 0;
+    }
+
+    .Caption {
+      max-width: 40em;
+      margin-bottom: 6em;
+    }
+
+    .Mockups {
+      display: grid;
+
+      .DayleeDashboardImg {
+        @media (min-width: 700px) {
+          margin-top: 3em;
+        }
+      }
+    }
+  }
+
+  .ProjectContent {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    gap: 1em;
+    margin-bottom: 3em;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 55em;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100vw;
+      height: 475%;
+      background: linear-gradient(
+        180deg,
+        rgba(246, 247, 254, 0) 0%,
+        #f6f7fe 8%,
+        #f6f7fe 95%,
+        rgba(246, 247, 254, 0) 100%
+      );
+      z-index: -1;
+    }
+
+    p {
+      margin: 0.5em 0;
+    }
+
+    .SideInfo {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 1.5em;
+      align-self: flex-start;
+      margin-bottom: 15em;
+
+      h4 {
+        color: #6773ff;
+        margin: 1.5em 0 0.7em;
+      }
+
+      li {
+        margin-bottom: 1.5em;
+
+        a {
+          display: flex;
+          gap: 0.5em;
+
+          &:hover {
+            opacity: 0.7;
+          }
+
+          img {
+            width: 22px;
+          }
+        }
+      }
+    }
+
+    .MainContent {
+      margin-bottom: 5em;
+
+      .ContentSection {
+        margin-bottom: 3.5em;
+
+        h2 {
+          margin-top: 0;
+        }
+
+        img {
+          margin: 1em 0;
+        }
+
+        .TypoReturn {
+          margin: 0;
+        }
+
+        .TypoGrid {
+          margin: 2em 0;
+
+          @media (min-width: 700px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2em;
+          }
+
+          img {
+            margin: 0;
+          }
+        }
+
+        .FeaturesGrid {
+          @media (min-width: 700px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          }
+
+          img {
+            max-width: 350px;
+            max-height: 350px;
+            transition: all 200ms ease-in;
+
+            &:hover {
+              cursor: pointer;
+              transform: scale(1.01) translateY(-5px);
+            }
+          }
+        }
+      }
+    }
+  }
+}

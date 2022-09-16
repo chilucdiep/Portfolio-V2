@@ -17,7 +17,7 @@ import SpacestagramThumbnail from "../../images/SpacestagramThumbnail.svg";
 import styles from "./DayleePage.module.scss";
 import globals from "../../App.module.scss";
 
-export default function AboutContainer() {
+export default function DayleeContainer() {
   return (
     <section className={styles.DayleeContainer}>
       <section className={styles.Hero}>
