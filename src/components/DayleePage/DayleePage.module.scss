@@ -37,16 +37,16 @@
     &::before {
       content: "";
       position: absolute;
-      top: -200px;
+      top: 55em;
       left: 50%;
       transform: translateX(-50%);
       width: 100vw;
-      height: 570%;
+      height: 475%;
       background: linear-gradient(
         180deg,
         rgba(246, 247, 254, 0) 0%,
         #f6f7fe 8%,
-        #f6f7fe 99%,
+        #f6f7fe 95%,
         rgba(246, 247, 254, 0) 100%
       );
       z-index: -1;
