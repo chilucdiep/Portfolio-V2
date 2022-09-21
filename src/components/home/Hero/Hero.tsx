@@ -18,7 +18,7 @@ export default function Hero() {
       console.error("Failed to copy", err);
     }
   }
-  
+
   return (
     <div className={styles.Hero}>
       <div className={styles.HeroText}>
@@ -26,22 +26,24 @@ export default function Hero() {
         <div className={styles.Typewriter}>
           <h1 className={globals.Title}>I'm</h1>
           <ul className={styles.DynamicText}>
-              <li>
-                <h1 className={globals.Title}>Chi-Luc Diep</h1>
-              </li>
-              <li>
-                <h1 className={globals.Title}>a developer</h1>
-              </li>
-              <li>
-                <h1 className={globals.Title}>a UX designer</h1>
-              </li>
-              <li>
-                <h1 className={globals.Title}>a freelancer</h1>
-              </li>
-            </ul>
+            <li>
+              <h1 className={globals.Title}>Chi-Luc Diep</h1>
+            </li>
+            <li>
+              <h1 className={globals.Title}>a developer</h1>
+            </li>
+            <li>
+              <h1 className={globals.Title}>a UX designer</h1>
+            </li>
+            <li>
+              <h1 className={globals.Title}>a freelancer</h1>
+            </li>
+          </ul>
         </div>
         <p>
-          A <span>Front-End Developer</span> & <span>Product Designer</span> building amazing and accessible digital experiences for people️.
+          I enjoy bridging <span>Front-End Development</span> &{" "}
+          <span>Product Design</span> to build beautiful and accessible digital
+          experiences for people️.
         </p>
         <div className={styles.Button}>
           <Button

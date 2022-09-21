@@ -29,7 +29,7 @@ export default function Work() {
 
   return (
     <div className={styles.WorkContainer} id="work">
-      <h1>Selected Work</h1>
+      <h1>Cool things I created</h1>
       <div className={styles.Filters}>
         <button
           className={`${FeaturedSelectedClasses} ${styles.FilterButton}`}

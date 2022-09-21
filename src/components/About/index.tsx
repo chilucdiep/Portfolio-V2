@@ -1,7 +1,7 @@
 import styles from "./About.module.scss";
 import globals from "../../App.module.scss";
 
-import AboutImg from "../../images/AboutImg.png";
+import AboutImg from "../../images/AboutImage.png";
 import Coveo from "../../images/Coveo.svg";
 import Billmate from "../../images/Billmate.svg";
 import ColoredByte from "../../images/ColoredByte.svg";
@@ -22,7 +22,7 @@ export default function AboutContainer() {
       </div>
       <div className={styles.Journey}>
         <div className={styles.AboutImg}>
-          <img src={AboutImg} alt="Profile Image" />
+          <img src={AboutImg} alt="Profile About" />
         </div>
         <div className={styles.AboutText}>
           <h3>As a passionate self-taught</h3>
