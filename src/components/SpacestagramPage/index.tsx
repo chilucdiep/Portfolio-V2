@@ -156,13 +156,17 @@ export default function SpacestagramContainer() {
             </div>
           </div>
           <div className={styles.ContentSection}>
-            <h2>Lessons learned & next steps</h2>
-            <p>Section incoming...</p>
+            <h2>Lessons learned</h2>
+            <p>• Lazy load an API</p>
+            <p>• Build custom hooks in React to fetch data</p>
+            <p>• Use the local storage to save data</p>
+            <p>• Routing with React Router V6</p>
+            <p>• Modern CSS features such as clamp, grid, etc</p>
           </div>
           <div className={styles.ContentSection}>
             <h2>Other projects</h2>
-            <div className={styles.FeaturesGrid}>
-              <a href="https://github.com/Daylee-Digital-Journal/daylee">
+            <div className={styles.ProjectsGrid}>
+              <a href="/daylee">
                 <img src={DayleeThumbnail} alt="Daylee Thumbnail" />
               </a>
               <a href="https://daylee-web.herokuapp.com/">

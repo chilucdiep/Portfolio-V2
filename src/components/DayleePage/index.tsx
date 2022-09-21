@@ -181,16 +181,21 @@ export default function DayleeContainer() {
             </div>
           </div>
           <div className={styles.ContentSection}>
-            <h2>Lessons learned & next steps</h2>
-            <p>Section incoming... Since project is still on going :D</p>
+            <h2>Lessons learned</h2>
+            <p>
+              • Build highly re-usable and flexible components (Custom design
+              system)
+            </p>
+            <p>• Get more familiar with manipulating time in JavaScript</p>
+            <p>• More to come.. Project still on going</p>
           </div>
           <div className={styles.ContentSection}>
             <h2>Other projects</h2>
-            <div className={styles.FeaturesGrid}>
+            <div className={styles.ProjectsGrid}>
               <a href="https://daylee-web.herokuapp.com/">
                 <img src={BillmateThumbnail} alt="Billmate Thumbnail" />
               </a>
-              <a href="https://chilucdiep.github.io/Spacestagram/">
+              <a href="/spacestagram">
                 <img src={SpacestagramThumbnail} alt="Spacestagram Thumbnail" />
               </a>
             </div>
