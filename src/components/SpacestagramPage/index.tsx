@@ -125,10 +125,19 @@ export default function SpacestagramContainer() {
               page, where they can read about the picture’s context and
               information.
             </p>
-            <div className={styles.FeaturesGrid}>
-              <img src={HomepageSpaceImg} alt="Home Page" />
-              <img src={FeedpageSpaceImg} alt="Feed page" />
-              <img src={DetailspageSpaceImg} alt="Details page" />
+            <div className={styles.PagesGrid}>
+              <div>
+                <p>Home Page</p>
+                <img src={HomepageSpaceImg} alt="Home Page" />
+              </div>
+              <div>
+                <p>Feed Page</p>
+                <img src={FeedpageSpaceImg} alt="Feed page" />
+              </div>
+              <div>
+                <p>Details Page</p>
+                <img src={DetailspageSpaceImg} alt="Details page" />
+              </div>
             </div>
             <h4>Custom hooks</h4>
             <p>
@@ -139,11 +148,17 @@ export default function SpacestagramContainer() {
               favorite pictures to be saved inside of the local storage for a
               better user experience. The hook was mainly implemented to make
               the code cleaner and more scalable when using this functionality.
-            <div className={styles.FeaturesGrid}>
-              <img src={useFetchPicturesImg} alt="Pomodoro Code" />
-              <img src={useLocalStorageImg} alt="Pomodoro" />
-            </div>
             </p>
+            <div className={styles.FeaturesGrid}>
+                <div>
+                  <p>useFetchPictures</p>
+                  <img src={useFetchPicturesImg} alt="useFetchPictures" />
+                </div>
+                <div>
+                  <p>useLocalStorage</p>
+                  <img src={useLocalStorageImg} alt="useLocalStorage" />
+                </div>
+              </div>
             <h4>The Feed page component</h4>
             <p>
               This is an code snippet of one of the main components of the app.
@@ -161,7 +176,7 @@ export default function SpacestagramContainer() {
             <p>• Build custom hooks in React to fetch data</p>
             <p>• Use the local storage to save data</p>
             <p>• Routing with React Router V6</p>
-            <p>• Modern CSS features such as clamp, grid, etc</p>
+            <p>• Modern CSS features such as clamp, grid, etc.</p>
           </div>
           <div className={styles.ContentSection}>
             <h2>Other projects</h2>

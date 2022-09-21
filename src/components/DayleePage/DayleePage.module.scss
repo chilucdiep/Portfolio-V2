@@ -41,7 +41,7 @@
       left: 50%;
       transform: translateX(-50%);
       width: 100vw;
-      height: 475%;
+      height: 560%;
       background: linear-gradient(
         180deg,
         rgba(246, 247, 254, 0) 0%,
@@ -122,11 +122,7 @@
           @media (min-width: 700px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
-          }
-
-          img {
-            max-width: 350px;
-            max-height: 350px;
+            justify-items: start;
           }
         }
 

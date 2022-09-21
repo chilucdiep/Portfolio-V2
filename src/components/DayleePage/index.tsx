@@ -192,11 +192,11 @@ export default function DayleeContainer() {
           <div className={styles.ContentSection}>
             <h2>Other projects</h2>
             <div className={styles.ProjectsGrid}>
-              <a href="https://daylee-web.herokuapp.com/">
-                <img src={BillmateThumbnail} alt="Billmate Thumbnail" />
-              </a>
               <a href="/spacestagram">
                 <img src={SpacestagramThumbnail} alt="Spacestagram Thumbnail" />
+              </a>
+              <a href="https://billmate.io/">
+                <img src={BillmateThumbnail} alt="Billmate Thumbnail" />
               </a>
             </div>
           </div>
