@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.06ff610c.chunk.css",
-    "main.js": "./static/js/main.97eb64b6.chunk.js",
-    "main.js.map": "./static/js/main.97eb64b6.chunk.js.map",
+    "main.css": "./static/css/main.781fbe7d.chunk.css",
+    "main.js": "./static/js/main.f3f4640e.chunk.js",
+    "main.js.map": "./static/js/main.f3f4640e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c43fb023.js",
     "runtime-main.js.map": "./static/js/runtime-main.c43fb023.js.map",
     "static/js/2.d519a3d3.chunk.js": "./static/js/2.d519a3d3.chunk.js",
     "static/js/2.d519a3d3.chunk.js.map": "./static/js/2.d519a3d3.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.06ff610c.chunk.css.map": "./static/css/main.06ff610c.chunk.css.map",
+    "static/css/main.781fbe7d.chunk.css.map": "./static/css/main.781fbe7d.chunk.css.map",
     "static/js/2.d519a3d3.chunk.js.LICENSE.txt": "./static/js/2.d519a3d3.chunk.js.LICENSE.txt",
     "static/media/AboutImage.42f1ed89.png": "./static/media/AboutImage.42f1ed89.png",
     "static/media/Billmate.b998bcf9.svg": "./static/media/Billmate.b998bcf9.svg",
@@ -19,14 +19,14 @@
     "static/media/DayleeLanding.a95b36d8.svg": "./static/media/DayleeLanding.a95b36d8.svg",
     "static/media/DayleeThumbnail.ce25ac40.svg": "./static/media/DayleeThumbnail.ce25ac40.svg",
     "static/media/DesignSystem.dc6696da.svg": "./static/media/DesignSystem.dc6696da.svg",
-    "static/media/DetailspageSpaceImg.657a1bc3.svg": "./static/media/DetailspageSpaceImg.657a1bc3.svg",
-    "static/media/FeedPageComponentImg.3c24b068.svg": "./static/media/FeedPageComponentImg.3c24b068.svg",
-    "static/media/FeedpageSpaceImg.0f7a9d9d.svg": "./static/media/FeedpageSpaceImg.0f7a9d9d.svg",
+    "static/media/DetailspageSpaceImg.36ed993b.svg": "./static/media/DetailspageSpaceImg.36ed993b.svg",
+    "static/media/FeedPageComponentImg.95bfa831.svg": "./static/media/FeedPageComponentImg.95bfa831.svg",
+    "static/media/FeedpageSpaceImg.a36b52ed.svg": "./static/media/FeedpageSpaceImg.a36b52ed.svg",
     "static/media/FigmaIcon.3f3657f1.png": "./static/media/FigmaIcon.3f3657f1.png",
     "static/media/GithubIcon.54869ca9.png": "./static/media/GithubIcon.54869ca9.png",
     "static/media/GreyGithubIcon.2d43ec13.png": "./static/media/GreyGithubIcon.2d43ec13.png",
     "static/media/HeroImg.930d2b8d.png": "./static/media/HeroImg.930d2b8d.png",
-    "static/media/HomepageSpaceImg.178e8f0b.svg": "./static/media/HomepageSpaceImg.178e8f0b.svg",
+    "static/media/HomepageSpaceImg.293b2ee5.svg": "./static/media/HomepageSpaceImg.293b2ee5.svg",
     "static/media/Logo.223c9b1c.svg": "./static/media/Logo.223c9b1c.svg",
     "static/media/MissionImg.1a01f23d.png": "./static/media/MissionImg.1a01f23d.png",
     "static/media/OpenLinkIcon.c92a05c9.svg": "./static/media/OpenLinkIcon.c92a05c9.svg",
@@ -43,13 +43,13 @@
     "static/media/TypoReturn.69c5fec0.svg": "./static/media/TypoReturn.69c5fec0.svg",
     "static/media/TypoVariants.2c04b914.svg": "./static/media/TypoVariants.2c04b914.svg",
     "static/media/Wave.159a3122.svg": "./static/media/Wave.159a3122.svg",
-    "static/media/useFetchPicturesImg.aad9f2ea.svg": "./static/media/useFetchPicturesImg.aad9f2ea.svg",
-    "static/media/useLocalStorageImg.9d79fe20.svg": "./static/media/useLocalStorageImg.9d79fe20.svg"
+    "static/media/useFetchPicturesImg.eb57dc16.svg": "./static/media/useFetchPicturesImg.eb57dc16.svg",
+    "static/media/useLocalStorageImg.57cccb64.svg": "./static/media/useLocalStorageImg.57cccb64.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c43fb023.js",
     "static/js/2.d519a3d3.chunk.js",
-    "static/css/main.06ff610c.chunk.css",
-    "static/js/main.97eb64b6.chunk.js"
+    "static/css/main.781fbe7d.chunk.css",
+    "static/js/main.f3f4640e.chunk.js"
   ]
 }
