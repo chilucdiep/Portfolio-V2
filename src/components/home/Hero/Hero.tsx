@@ -11,7 +11,7 @@ export default function Hero() {
 
     try {
       await navigator.clipboard.writeText(email);
-      alert("You copied " + email + " to your clipboard!");
+      alert(`You copied '${email}' to your clipboard!`);
       console.log("Page URL copied to clipboard");
     } catch (err) {
       console.error("Failed to copy", err);
