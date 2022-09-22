@@ -3,7 +3,7 @@ export const TechnologiesList = [
     "CSS/Scss",
     "Javascript/TypeScript",
     "React",
-    "Redux & Redux-Sag",
+    "Redux & Redux-Saga",
     "Next.js",
     "Angular",
     "RxJS",
