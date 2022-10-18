@@ -1,5 +1,4 @@
 .WorkContainer {
-  padding-bottom: 10em;
   position: relative;
 
   &::before {
@@ -62,12 +61,16 @@
   }
 
   .Works {
+    .Left,
+    .Right {
+      margin-bottom: 5em;
+    }
+
     @media screen and (min-width: 700px) {
       .Left {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 5em;
         gap: 3em;
       }
 
@@ -76,7 +79,6 @@
         justify-content: space-between;
         align-items: center;
         flex-direction: row-reverse;
-        margin-bottom: 5em;
         gap: 3em;
       }
     }
@@ -93,6 +95,10 @@
       display: flex;
       flex-direction: row-reverse;
       margin: 3em 0;
+
+      @media screen and (max-width: 700px) {
+        margin-bottom: 0;
+      }
 
       span {
         transform: translateX(0) scale(0.7);
